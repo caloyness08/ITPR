@@ -1,0 +1,118 @@
+﻿@page "/"
+@rendermode InteractiveServer
+
+<PageTitle>Welcome</PageTitle>
+
+<div class="card w-100">
+    <div class="card-body p-0">
+        <DxMenu Orientation="Orientation.Horizontal"
+                DropDownActionMode="MenuDropDownActionMode.Click"
+                DisplayMode="MenuDisplayMode.Desktop"
+                Title="DevExpress Logo"
+                CollapseItemsToHamburgerMenu="true"
+                CollapseItemToIconMode="MenuCollapseItemToIconMode.All"
+                SubMenuCssClass="menu-dropdown"
+               >
+            <TitleTemplate>
+                <div class="icon-logo" role="img" aria-label="@context">
+                    <img src="images/headerlogo.svg" />
+                </div>
+            </TitleTemplate>
+            <Items>
+                <DxMenuItem Text="Home" IconCssClass="menu-icon-home menu-icon">
+                    <Items>
+                        <DxMenuItem Text="News">
+                            <Items>
+                                <DxMenuItem Text="Explore our newest features" />
+                                <DxMenuItem Text="Website news" />
+                            </Items>
+                        </DxMenuItem>
+                        <DxMenuItem Text="Our Mission" />
+                        <DxMenuItem Text="Our Customers" />
+                    </Items>
+                </DxMenuItem>
+                <DxMenuItem Text="Components" IconCssClass="menu-icon-products menu-icon">
+                    <Items>
+                        <DxMenuItem Text="Blazor" />
+                        <DxMenuItem Text="ASP.NET MVC" />
+                        <DxMenuItem Text="ASP.NET Web Forms" />
+                        <DxMenuItem Text="ASP.NET Core" />
+                        <DxMenuItem Text="Bootstrap Web Forms" />
+                    </Items>
+                </DxMenuItem>
+                <DxMenuItem Text="Support" IconCssClass="menu-icon-support menu-icon">
+                    <Items>
+                        <DxMenuItem Text="Getting Started" />
+                        <DxMenuItem Text="Documentation" />
+                        <DxMenuItem Text="Support Center" />
+                        <DxMenuItem Text="Code Examples" />
+                        <DxMenuItem Text="Blogs" />
+                    </Items>
+                </DxMenuItem>
+                <DxMenuItem CssClass="search-menu-item" Position="ItemPosition.End">
+                    <Template>
+                        <SearchItem />
+                    </Template>
+                </DxMenuItem>
+                <DxMenuItem CssClass="notoggle" Position="ItemPosition.End">
+                    <TextTemplate>
+                  
+                        <img src="images/icons/user-profile.svg" class="menu-icon-user-profile" />
+                    </TextTemplate>
+                    <SubMenuTemplate>
+          
+                        <div class="w-100 user-profile">
+                            <div class="flex-column align-items-center justify-content-center">
+                                <div class="logo-container d-flex align-items-center justify-content-center">
+                                    <img src="images/icons/user-profile.svg" class="menu-icon-user-profile menu-icon menu-icon-large" />
+                                </div>
+                                <div class="user-name-container bm-3 mb-2">
+                                    <div class="tm-8 text-center">User Name</div>
+                                    <div class="text-center">John Heart</div>
+                                </div>
+                                <div class="d-flex justify-content-center log-off-btn">
+                                    <DxButton Text="Log Off" RenderStyle="@ButtonRenderStyle.Secondary"></DxButton>
+                                </div>
+                            </div>
+                        </div>
+                    </SubMenuTemplate>
+                </DxMenuItem>
+            </Items>
+        </DxMenu>
+    </div>
+</div>
+
+<div class="main-content">
+    <DxGridLayout CssClass="welcome-gridlayout" RowSpacing="3rem">
+        <Rows>
+            <DxGridLayoutRow Height="auto" Areas="header"></DxGridLayoutRow>
+            <DxGridLayoutRow Height="auto" Areas="cards"></DxGridLayoutRow>
+        </Rows>
+        <Items>
+            <DxGridLayoutItem Area="header" CssClass="title">
+                <Template>
+                    <div class="title-header-text">Welcome to e-ITPR!</div>
+                    <div class="title-content-text">Please select your actions below.</div>
+                </Template>
+            </DxGridLayoutItem>
+            <DxGridLayoutItem Area="cards" CssClass="welcome-cards">
+                <Template>
+                    <NavLink class="welcome-card" href="/counter">
+                        <img src="images/submit_doc.svg" class="welcome-card-img"/>
+                    
+                        <div class="welcome-card-text">Create e-ITPR</div>
+                        <div class="welcome-card-back"></div>
+                    </NavLink>
+                    <NavLink class="welcome-card" href="/weather">
+                        <img src="images/open_doc.svg" class="welcome-card-img" />
+                     @*    <svg class="welcome-card-img" alt="weather card">
+                            <use href="images/cards.svg#weather"></use>
+                        </svg> *@
+                        <div class="welcome-card-text">View my e-ITPR</div>
+                        <div class="welcome-card-back"></div>
+                    </NavLink>
+                </Template>
+            </DxGridLayoutItem>
+        </Items>
+    </DxGridLayout>
+</div>

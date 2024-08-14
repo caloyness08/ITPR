@@ -1,0 +1,565 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\eITPR.bundle.scp.css",
+      "PackagePath": "staticwebassets\\eITPR.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\css\\bootstrap\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\css\\icons.css",
+      "PackagePath": "staticwebassets\\css\\icons.css"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\css\\open.iconic\\FONT-LICENSE.txt",
+      "PackagePath": "staticwebassets\\css\\open.iconic\\FONT-LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\css\\open.iconic\\ICON-LICENSE.txt",
+      "PackagePath": "staticwebassets\\css\\open.iconic\\ICON-LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\css\\open.iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open.iconic\\README.md"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\css\\open.iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open.iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\css\\open.iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open.iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\css\\open.iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open.iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\css\\open.iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open.iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\css\\open.iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open.iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\css\\open.iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open.iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\account\\log-in.svg",
+      "PackagePath": "staticwebassets\\images\\account\\log-in.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\account\\log-out.svg",
+      "PackagePath": "staticwebassets\\images\\account\\log-out.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\account\\manage-email.svg",
+      "PackagePath": "staticwebassets\\images\\account\\manage-email.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\account\\manage-password.svg",
+      "PackagePath": "staticwebassets\\images\\account\\manage-password.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\account\\manage-personal.svg",
+      "PackagePath": "staticwebassets\\images\\account\\manage-personal.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\account\\manage-profile.svg",
+      "PackagePath": "staticwebassets\\images\\account\\manage-profile.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\account\\manage-two-factor.svg",
+      "PackagePath": "staticwebassets\\images\\account\\manage-two-factor.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\account\\providers\\facebook-logo.svg",
+      "PackagePath": "staticwebassets\\images\\account\\providers\\facebook-logo.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\account\\providers\\google-logo.svg",
+      "PackagePath": "staticwebassets\\images\\account\\providers\\google-logo.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\account\\providers\\microsoft-logo.svg",
+      "PackagePath": "staticwebassets\\images\\account\\providers\\microsoft-logo.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\account\\providers\\x-logo.svg",
+      "PackagePath": "staticwebassets\\images\\account\\providers\\x-logo.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\account\\settings.svg",
+      "PackagePath": "staticwebassets\\images\\account\\settings.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\account\\user.svg",
+      "PackagePath": "staticwebassets\\images\\account\\user.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\back.svg",
+      "PackagePath": "staticwebassets\\images\\back.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\cards.svg",
+      "PackagePath": "staticwebassets\\images\\cards.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\close.svg",
+      "PackagePath": "staticwebassets\\images\\close.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\counter.svg",
+      "PackagePath": "staticwebassets\\images\\counter.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\demos.svg",
+      "PackagePath": "staticwebassets\\images\\demos.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\doc.svg",
+      "PackagePath": "staticwebassets\\images\\doc.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\home.svg",
+      "PackagePath": "staticwebassets\\images\\home.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\about.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\about.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\accept.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\accept.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\add.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\add.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\address.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\address.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\alert.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\alert.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\align-center.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\align-center.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\align-left.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\align-left.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\align-right.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\align-right.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\birthdate.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\birthdate.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\bold.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\bold.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\bonus.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\bonus.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\bug.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\bug.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\calendar.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\calendar.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\caret-left.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\caret-left.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\caret-right.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\caret-right.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\check.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\check.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\chevron-down.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\chevron-down.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\chevron-left-small.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\chevron-left-small.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\chevron-left.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\chevron-left.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\chevron-right-small.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\chevron-right-small.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\chevron-right.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\chevron-right.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\city.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\city.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\clear.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\clear.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\close.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\close.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\collapse.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\collapse.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\column-chooser.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\column-chooser.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\contacts.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\contacts.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\copy.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\copy.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\credit-card.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\credit-card.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\cut.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\cut.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\debit-card.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\debit-card.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\delete.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\delete.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\document-color.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\document-color.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\dollar.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\dollar.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\drop-file.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\drop-file.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\euro.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\euro.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\export-jpg.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\export-jpg.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\export-pdf.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\export-pdf.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\export-png.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\export-png.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\export.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\export.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\folder-color.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\folder-color.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\folder.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\folder.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\font.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\font.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\grid-toolbar-delete.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\grid-toolbar-delete.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\grid-toolbar-document.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\grid-toolbar-document.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\grid-toolbar-edit.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\grid-toolbar-edit.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\grid-toolbar-filter.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\grid-toolbar-filter.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\grid-toolbar-new.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\grid-toolbar-new.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\grid-toolbar-refresh.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\grid-toolbar-refresh.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\hamburger.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\hamburger.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\home.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\home.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\image-colors.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\image-colors.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\info-circle.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\info-circle.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\info.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\info.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\italic.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\italic.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\like.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\like.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\link.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\link.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\logo-color.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\logo-color.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\logo-monochrome.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\logo-monochrome.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\mail.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\mail.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\minus.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\minus.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\music-colors.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\music-colors.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\music.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\music.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\paragraph.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\paragraph.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\paste.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\paste.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\phone.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\phone.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\plus.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\plus.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\popup-birthday.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\popup-birthday.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\popup-position.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\popup-position.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\popup-user.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\popup-user.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\popup-worked.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\popup-worked.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\products.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\products.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\quest.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\quest.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\redo.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\redo.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\refresh.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\refresh.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\save.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\save.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\scheduler-add.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\scheduler-add.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\scheduler-delete.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\scheduler-delete.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\scheduler-drag-and-resize.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\scheduler-drag-and-resize.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\scheduler-drag-between-resources.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\scheduler-drag-between-resources.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\scheduler-edit.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\scheduler-edit.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\scheduler-navigator.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\scheduler-navigator.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\scheduler-no-tooltip.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\scheduler-no-tooltip.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\search.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\search.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\settings.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\settings.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\sort.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\sort.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\support.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\support.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\theme-icon.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\theme-icon.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\time.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\time.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\total.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\total.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\underline.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\underline.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\undo.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\undo.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\user-profile.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\user-profile.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\video-colors.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\video-colors.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\video.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\video.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\watermark.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\watermark.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\logo.svg",
+      "PackagePath": "staticwebassets\\images\\logo.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\menu.svg",
+      "PackagePath": "staticwebassets\\images\\menu.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\open_doc.svg",
+      "PackagePath": "staticwebassets\\images\\open_doc.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\submit_doc.svg",
+      "PackagePath": "staticwebassets\\images\\submit_doc.svg"
+    },
+    {
+      "Id": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\weather.svg",
+      "PackagePath": "staticwebassets\\images\\weather.svg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.eITPR.props",
+      "PackagePath": "build\\eITPR.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.eITPR.props",
+      "PackagePath": "buildMultiTargeting\\eITPR.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.eITPR.props",
+      "PackagePath": "buildTransitive\\eITPR.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.eITPR.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
