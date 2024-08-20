@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RGKJwa8SpKZATl8+gBL74GrIhphIf1EETEvyNgOYA9c=",
+  "Hash": "5o1rtQ16cov09FyHXSMdusbY/W/VBQE3RYWLsnchxiM=",
   "Source": "eITPR",
   "BasePath": "_content/eITPR",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "eITPR\\wwwroot",
       "Source": "eITPR",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "Pattern": "**"
     }
@@ -3494,10 +3494,10 @@
       "OriginalItemSpec": "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages\\devexpress.blazor\\24.1.3\\staticwebassets\\modules\\window-resize-helper-8b32f302.js"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\obj\\Debug\\net8.0\\scopedcss\\bundle\\eITPR.styles.css",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\obj\\Debug\\net8.0\\scopedcss\\bundle\\eITPR.styles.css",
       "SourceId": "eITPR",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "eITPR.styles.css",
       "AssetKind": "All",
@@ -3510,13 +3510,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\obj\\Debug\\net8.0\\scopedcss\\bundle\\eITPR.styles.css"
+      "OriginalItemSpec": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\obj\\Debug\\net8.0\\scopedcss\\bundle\\eITPR.styles.css"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\eITPR.bundle.scp.css",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\eITPR.bundle.scp.css",
       "SourceId": "eITPR",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "eITPR.bundle.scp.css",
       "AssetKind": "All",
@@ -3529,13 +3529,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\eITPR.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\eITPR.bundle.scp.css"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\css\\bootstrap\\bootstrap.css",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\css\\bootstrap\\bootstrap.css",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "css/bootstrap/bootstrap.css",
       "AssetKind": "All",
@@ -3551,10 +3551,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.css"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -3570,10 +3570,48 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\css\\icons.css",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\css\\desktop.ini",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
+      "BasePath": "_content/eITPR",
+      "RelativePath": "css/desktop.ini",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\desktop.ini"
+    },
+    {
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\css\\eITPR.styles.css",
+      "SourceId": "eITPR",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
+      "BasePath": "_content/eITPR",
+      "RelativePath": "css/eITPR.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\eITPR.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\css\\icons.css",
+      "SourceId": "eITPR",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "css/icons.css",
       "AssetKind": "All",
@@ -3589,181 +3627,10 @@
       "OriginalItemSpec": "wwwroot\\css\\icons.css"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\css\\open.iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\css\\site.css",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
-      "BasePath": "_content/eITPR",
-      "RelativePath": "css/open.iconic/font/css/open-iconic-bootstrap.min.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open.iconic\\font\\css\\open-iconic-bootstrap.min.css"
-    },
-    {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\css\\open.iconic\\font\\fonts\\open-iconic.eot",
-      "SourceId": "eITPR",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
-      "BasePath": "_content/eITPR",
-      "RelativePath": "css/open.iconic/font/fonts/open-iconic.eot",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open.iconic\\font\\fonts\\open-iconic.eot"
-    },
-    {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\css\\open.iconic\\font\\fonts\\open-iconic.otf",
-      "SourceId": "eITPR",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
-      "BasePath": "_content/eITPR",
-      "RelativePath": "css/open.iconic/font/fonts/open-iconic.otf",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open.iconic\\font\\fonts\\open-iconic.otf"
-    },
-    {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\css\\open.iconic\\font\\fonts\\open-iconic.svg",
-      "SourceId": "eITPR",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
-      "BasePath": "_content/eITPR",
-      "RelativePath": "css/open.iconic/font/fonts/open-iconic.svg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open.iconic\\font\\fonts\\open-iconic.svg"
-    },
-    {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\css\\open.iconic\\font\\fonts\\open-iconic.ttf",
-      "SourceId": "eITPR",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
-      "BasePath": "_content/eITPR",
-      "RelativePath": "css/open.iconic/font/fonts/open-iconic.ttf",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open.iconic\\font\\fonts\\open-iconic.ttf"
-    },
-    {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\css\\open.iconic\\font\\fonts\\open-iconic.woff",
-      "SourceId": "eITPR",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
-      "BasePath": "_content/eITPR",
-      "RelativePath": "css/open.iconic/font/fonts/open-iconic.woff",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open.iconic\\font\\fonts\\open-iconic.woff"
-    },
-    {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\css\\open.iconic\\FONT-LICENSE.txt",
-      "SourceId": "eITPR",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
-      "BasePath": "_content/eITPR",
-      "RelativePath": "css/open.iconic/FONT-LICENSE.txt",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open.iconic\\FONT-LICENSE.txt"
-    },
-    {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\css\\open.iconic\\ICON-LICENSE.txt",
-      "SourceId": "eITPR",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
-      "BasePath": "_content/eITPR",
-      "RelativePath": "css/open.iconic/ICON-LICENSE.txt",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open.iconic\\ICON-LICENSE.txt"
-    },
-    {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\css\\open.iconic\\README.md",
-      "SourceId": "eITPR",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
-      "BasePath": "_content/eITPR",
-      "RelativePath": "css/open.iconic/README.md",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open.iconic\\README.md"
-    },
-    {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\css\\site.css",
-      "SourceId": "eITPR",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -3779,10 +3646,48 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\css\\tailwind-app.css",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
+      "BasePath": "_content/eITPR",
+      "RelativePath": "css/tailwind-app.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\tailwind-app.css"
+    },
+    {
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\css\\tailwind-app.output.css",
+      "SourceId": "eITPR",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
+      "BasePath": "_content/eITPR",
+      "RelativePath": "css/tailwind-app.output.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\tailwind-app.output.css"
+    },
+    {
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\favicon.ico",
+      "SourceId": "eITPR",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -3798,10 +3703,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\account\\log-in.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\account\\log-in.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/account/log-in.svg",
       "AssetKind": "All",
@@ -3817,10 +3722,10 @@
       "OriginalItemSpec": "wwwroot\\images\\account\\log-in.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\account\\log-out.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\account\\log-out.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/account/log-out.svg",
       "AssetKind": "All",
@@ -3836,10 +3741,10 @@
       "OriginalItemSpec": "wwwroot\\images\\account\\log-out.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\account\\manage-email.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\account\\manage-email.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/account/manage-email.svg",
       "AssetKind": "All",
@@ -3855,10 +3760,10 @@
       "OriginalItemSpec": "wwwroot\\images\\account\\manage-email.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\account\\manage-password.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\account\\manage-password.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/account/manage-password.svg",
       "AssetKind": "All",
@@ -3874,10 +3779,10 @@
       "OriginalItemSpec": "wwwroot\\images\\account\\manage-password.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\account\\manage-personal.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\account\\manage-personal.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/account/manage-personal.svg",
       "AssetKind": "All",
@@ -3893,10 +3798,10 @@
       "OriginalItemSpec": "wwwroot\\images\\account\\manage-personal.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\account\\manage-profile.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\account\\manage-profile.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/account/manage-profile.svg",
       "AssetKind": "All",
@@ -3912,10 +3817,10 @@
       "OriginalItemSpec": "wwwroot\\images\\account\\manage-profile.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\account\\manage-two-factor.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\account\\manage-two-factor.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/account/manage-two-factor.svg",
       "AssetKind": "All",
@@ -3931,10 +3836,10 @@
       "OriginalItemSpec": "wwwroot\\images\\account\\manage-two-factor.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\account\\providers\\facebook-logo.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\account\\providers\\facebook-logo.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/account/providers/facebook-logo.svg",
       "AssetKind": "All",
@@ -3950,10 +3855,10 @@
       "OriginalItemSpec": "wwwroot\\images\\account\\providers\\facebook-logo.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\account\\providers\\google-logo.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\account\\providers\\google-logo.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/account/providers/google-logo.svg",
       "AssetKind": "All",
@@ -3969,10 +3874,10 @@
       "OriginalItemSpec": "wwwroot\\images\\account\\providers\\google-logo.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\account\\providers\\microsoft-logo.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\account\\providers\\microsoft-logo.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/account/providers/microsoft-logo.svg",
       "AssetKind": "All",
@@ -3988,10 +3893,10 @@
       "OriginalItemSpec": "wwwroot\\images\\account\\providers\\microsoft-logo.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\account\\providers\\x-logo.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\account\\providers\\x-logo.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/account/providers/x-logo.svg",
       "AssetKind": "All",
@@ -4007,10 +3912,10 @@
       "OriginalItemSpec": "wwwroot\\images\\account\\providers\\x-logo.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\account\\settings.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\account\\settings.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/account/settings.svg",
       "AssetKind": "All",
@@ -4026,10 +3931,10 @@
       "OriginalItemSpec": "wwwroot\\images\\account\\settings.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\account\\user.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\account\\user.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/account/user.svg",
       "AssetKind": "All",
@@ -4045,10 +3950,10 @@
       "OriginalItemSpec": "wwwroot\\images\\account\\user.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\back.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\back.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/back.svg",
       "AssetKind": "All",
@@ -4064,10 +3969,10 @@
       "OriginalItemSpec": "wwwroot\\images\\back.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\cards.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\cards.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/cards.svg",
       "AssetKind": "All",
@@ -4083,10 +3988,10 @@
       "OriginalItemSpec": "wwwroot\\images\\cards.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\close.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\close.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/close.svg",
       "AssetKind": "All",
@@ -4102,10 +4007,10 @@
       "OriginalItemSpec": "wwwroot\\images\\close.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\counter.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\counter.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/counter.svg",
       "AssetKind": "All",
@@ -4121,10 +4026,10 @@
       "OriginalItemSpec": "wwwroot\\images\\counter.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\demos.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\demos.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/demos.svg",
       "AssetKind": "All",
@@ -4140,10 +4045,10 @@
       "OriginalItemSpec": "wwwroot\\images\\demos.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\doc.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\doc.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/doc.svg",
       "AssetKind": "All",
@@ -4159,10 +4064,29 @@
       "OriginalItemSpec": "wwwroot\\images\\doc.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\home.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\HeaderLogo.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
+      "BasePath": "_content/eITPR",
+      "RelativePath": "images/HeaderLogo.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\HeaderLogo.svg"
+    },
+    {
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\home.svg",
+      "SourceId": "eITPR",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/home.svg",
       "AssetKind": "All",
@@ -4178,10 +4102,10 @@
       "OriginalItemSpec": "wwwroot\\images\\home.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\about.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\about.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/about.svg",
       "AssetKind": "All",
@@ -4197,10 +4121,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\about.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\accept.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\accept.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/accept.svg",
       "AssetKind": "All",
@@ -4216,10 +4140,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\accept.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\add.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\add.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/add.svg",
       "AssetKind": "All",
@@ -4235,10 +4159,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\add.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\address.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\address.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/address.svg",
       "AssetKind": "All",
@@ -4254,10 +4178,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\address.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\alert.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\alert.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/alert.svg",
       "AssetKind": "All",
@@ -4273,10 +4197,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\alert.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\align-center.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\align-center.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/align-center.svg",
       "AssetKind": "All",
@@ -4292,10 +4216,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\align-center.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\align-left.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\align-left.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/align-left.svg",
       "AssetKind": "All",
@@ -4311,10 +4235,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\align-left.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\align-right.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\align-right.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/align-right.svg",
       "AssetKind": "All",
@@ -4330,10 +4254,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\align-right.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\birthdate.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\birthdate.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/birthdate.svg",
       "AssetKind": "All",
@@ -4349,10 +4273,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\birthdate.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\bold.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\bold.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/bold.svg",
       "AssetKind": "All",
@@ -4368,10 +4292,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\bold.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\bonus.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\bonus.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/bonus.svg",
       "AssetKind": "All",
@@ -4387,10 +4311,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\bonus.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\bug.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\bug.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/bug.svg",
       "AssetKind": "All",
@@ -4406,10 +4330,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\bug.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\calendar.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\calendar.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/calendar.svg",
       "AssetKind": "All",
@@ -4425,10 +4349,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\calendar.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\caret-left.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\caret-left.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/caret-left.svg",
       "AssetKind": "All",
@@ -4444,10 +4368,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\caret-left.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\caret-right.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\caret-right.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/caret-right.svg",
       "AssetKind": "All",
@@ -4463,10 +4387,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\caret-right.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\check.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\check.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/check.svg",
       "AssetKind": "All",
@@ -4482,10 +4406,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\check.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\chevron-down.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\chevron-down.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/chevron-down.svg",
       "AssetKind": "All",
@@ -4501,10 +4425,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\chevron-down.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\chevron-left.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\chevron-left.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/chevron-left.svg",
       "AssetKind": "All",
@@ -4520,10 +4444,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\chevron-left.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\chevron-left-small.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\chevron-left-small.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/chevron-left-small.svg",
       "AssetKind": "All",
@@ -4539,10 +4463,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\chevron-left-small.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\chevron-right.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\chevron-right.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/chevron-right.svg",
       "AssetKind": "All",
@@ -4558,10 +4482,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\chevron-right.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\chevron-right-small.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\chevron-right-small.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/chevron-right-small.svg",
       "AssetKind": "All",
@@ -4577,10 +4501,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\chevron-right-small.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\city.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\city.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/city.svg",
       "AssetKind": "All",
@@ -4596,10 +4520,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\city.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\clear.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\clear.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/clear.svg",
       "AssetKind": "All",
@@ -4615,10 +4539,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\clear.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\close.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\close.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/close.svg",
       "AssetKind": "All",
@@ -4634,10 +4558,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\close.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\collapse.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\collapse.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/collapse.svg",
       "AssetKind": "All",
@@ -4653,10 +4577,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\collapse.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\column-chooser.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\column-chooser.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/column-chooser.svg",
       "AssetKind": "All",
@@ -4672,10 +4596,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\column-chooser.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\contacts.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\contacts.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/contacts.svg",
       "AssetKind": "All",
@@ -4691,10 +4615,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\contacts.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\copy.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\copy.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/copy.svg",
       "AssetKind": "All",
@@ -4710,10 +4634,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\copy.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\credit-card.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\credit-card.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/credit-card.svg",
       "AssetKind": "All",
@@ -4729,10 +4653,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\credit-card.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\cut.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\cut.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/cut.svg",
       "AssetKind": "All",
@@ -4748,10 +4672,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\cut.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\debit-card.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\debit-card.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/debit-card.svg",
       "AssetKind": "All",
@@ -4767,10 +4691,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\debit-card.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\delete.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\delete.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/delete.svg",
       "AssetKind": "All",
@@ -4786,10 +4710,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\delete.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\document-color.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\document-color.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/document-color.svg",
       "AssetKind": "All",
@@ -4805,10 +4729,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\document-color.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\dollar.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\dollar.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/dollar.svg",
       "AssetKind": "All",
@@ -4824,10 +4748,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\dollar.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\drop-file.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\drop-file.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/drop-file.svg",
       "AssetKind": "All",
@@ -4843,10 +4767,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\drop-file.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\euro.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\euro.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/euro.svg",
       "AssetKind": "All",
@@ -4862,10 +4786,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\euro.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\export.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\export.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/export.svg",
       "AssetKind": "All",
@@ -4881,10 +4805,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\export.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\export-jpg.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\export-jpg.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/export-jpg.svg",
       "AssetKind": "All",
@@ -4900,10 +4824,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\export-jpg.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\export-pdf.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\export-pdf.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/export-pdf.svg",
       "AssetKind": "All",
@@ -4919,10 +4843,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\export-pdf.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\export-png.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\export-png.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/export-png.svg",
       "AssetKind": "All",
@@ -4938,10 +4862,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\export-png.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\folder.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\folder.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/folder.svg",
       "AssetKind": "All",
@@ -4957,10 +4881,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\folder.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\folder-color.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\folder-color.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/folder-color.svg",
       "AssetKind": "All",
@@ -4976,10 +4900,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\folder-color.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\font.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\font.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/font.svg",
       "AssetKind": "All",
@@ -4995,10 +4919,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\font.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\grid-toolbar-delete.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\grid-toolbar-delete.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/grid-toolbar-delete.svg",
       "AssetKind": "All",
@@ -5014,10 +4938,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\grid-toolbar-delete.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\grid-toolbar-document.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\grid-toolbar-document.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/grid-toolbar-document.svg",
       "AssetKind": "All",
@@ -5033,10 +4957,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\grid-toolbar-document.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\grid-toolbar-edit.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\grid-toolbar-edit.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/grid-toolbar-edit.svg",
       "AssetKind": "All",
@@ -5052,10 +4976,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\grid-toolbar-edit.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\grid-toolbar-filter.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\grid-toolbar-filter.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/grid-toolbar-filter.svg",
       "AssetKind": "All",
@@ -5071,10 +4995,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\grid-toolbar-filter.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\grid-toolbar-new.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\grid-toolbar-new.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/grid-toolbar-new.svg",
       "AssetKind": "All",
@@ -5090,10 +5014,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\grid-toolbar-new.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\grid-toolbar-refresh.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\grid-toolbar-refresh.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/grid-toolbar-refresh.svg",
       "AssetKind": "All",
@@ -5109,10 +5033,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\grid-toolbar-refresh.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\hamburger.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\hamburger.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/hamburger.svg",
       "AssetKind": "All",
@@ -5128,10 +5052,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\hamburger.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\home.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\home.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/home.svg",
       "AssetKind": "All",
@@ -5147,10 +5071,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\home.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\image-colors.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\image-colors.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/image-colors.svg",
       "AssetKind": "All",
@@ -5166,10 +5090,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\image-colors.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\info.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\info.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/info.svg",
       "AssetKind": "All",
@@ -5185,10 +5109,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\info.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\info-circle.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\info-circle.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/info-circle.svg",
       "AssetKind": "All",
@@ -5204,10 +5128,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\info-circle.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\italic.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\italic.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/italic.svg",
       "AssetKind": "All",
@@ -5223,10 +5147,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\italic.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\like.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\like.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/like.svg",
       "AssetKind": "All",
@@ -5242,10 +5166,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\like.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\link.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\link.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/link.svg",
       "AssetKind": "All",
@@ -5261,10 +5185,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\link.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\logo-color.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\logo-color.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/logo-color.svg",
       "AssetKind": "All",
@@ -5280,10 +5204,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\logo-color.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\logo-monochrome.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\logo-monochrome.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/logo-monochrome.svg",
       "AssetKind": "All",
@@ -5299,10 +5223,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\logo-monochrome.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\mail.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\mail.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/mail.svg",
       "AssetKind": "All",
@@ -5318,10 +5242,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\mail.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\minus.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\minus.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/minus.svg",
       "AssetKind": "All",
@@ -5337,10 +5261,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\minus.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\music.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\music.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/music.svg",
       "AssetKind": "All",
@@ -5356,10 +5280,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\music.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\music-colors.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\music-colors.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/music-colors.svg",
       "AssetKind": "All",
@@ -5375,10 +5299,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\music-colors.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\paragraph.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\paragraph.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/paragraph.svg",
       "AssetKind": "All",
@@ -5394,10 +5318,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\paragraph.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\paste.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\paste.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/paste.svg",
       "AssetKind": "All",
@@ -5413,10 +5337,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\paste.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\phone.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\phone.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/phone.svg",
       "AssetKind": "All",
@@ -5432,10 +5356,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\phone.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\plus.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\plus.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/plus.svg",
       "AssetKind": "All",
@@ -5451,10 +5375,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\plus.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\popup-birthday.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\popup-birthday.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/popup-birthday.svg",
       "AssetKind": "All",
@@ -5470,10 +5394,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\popup-birthday.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\popup-position.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\popup-position.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/popup-position.svg",
       "AssetKind": "All",
@@ -5489,10 +5413,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\popup-position.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\popup-user.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\popup-user.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/popup-user.svg",
       "AssetKind": "All",
@@ -5508,10 +5432,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\popup-user.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\popup-worked.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\popup-worked.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/popup-worked.svg",
       "AssetKind": "All",
@@ -5527,10 +5451,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\popup-worked.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\products.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\products.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/products.svg",
       "AssetKind": "All",
@@ -5546,10 +5470,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\products.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\quest.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\quest.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/quest.svg",
       "AssetKind": "All",
@@ -5565,10 +5489,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\quest.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\redo.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\redo.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/redo.svg",
       "AssetKind": "All",
@@ -5584,10 +5508,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\redo.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\refresh.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\refresh.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/refresh.svg",
       "AssetKind": "All",
@@ -5603,10 +5527,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\refresh.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\save.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\save.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/save.svg",
       "AssetKind": "All",
@@ -5622,10 +5546,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\save.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\scheduler-add.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\scheduler-add.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/scheduler-add.svg",
       "AssetKind": "All",
@@ -5641,10 +5565,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\scheduler-add.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\scheduler-delete.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\scheduler-delete.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/scheduler-delete.svg",
       "AssetKind": "All",
@@ -5660,10 +5584,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\scheduler-delete.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\scheduler-drag-and-resize.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\scheduler-drag-and-resize.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/scheduler-drag-and-resize.svg",
       "AssetKind": "All",
@@ -5679,10 +5603,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\scheduler-drag-and-resize.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\scheduler-drag-between-resources.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\scheduler-drag-between-resources.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/scheduler-drag-between-resources.svg",
       "AssetKind": "All",
@@ -5698,10 +5622,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\scheduler-drag-between-resources.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\scheduler-edit.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\scheduler-edit.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/scheduler-edit.svg",
       "AssetKind": "All",
@@ -5717,10 +5641,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\scheduler-edit.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\scheduler-navigator.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\scheduler-navigator.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/scheduler-navigator.svg",
       "AssetKind": "All",
@@ -5736,10 +5660,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\scheduler-navigator.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\scheduler-no-tooltip.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\scheduler-no-tooltip.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/scheduler-no-tooltip.svg",
       "AssetKind": "All",
@@ -5755,10 +5679,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\scheduler-no-tooltip.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\search.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\search.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/search.svg",
       "AssetKind": "All",
@@ -5774,10 +5698,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\search.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\settings.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\settings.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/settings.svg",
       "AssetKind": "All",
@@ -5793,10 +5717,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\settings.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\sort.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\sort.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/sort.svg",
       "AssetKind": "All",
@@ -5812,10 +5736,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\sort.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\support.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\support.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/support.svg",
       "AssetKind": "All",
@@ -5831,10 +5755,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\support.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\theme-icon.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\theme-icon.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/theme-icon.svg",
       "AssetKind": "All",
@@ -5850,10 +5774,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\theme-icon.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\time.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\time.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/time.svg",
       "AssetKind": "All",
@@ -5869,10 +5793,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\time.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\total.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\total.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/total.svg",
       "AssetKind": "All",
@@ -5888,10 +5812,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\total.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\underline.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\underline.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/underline.svg",
       "AssetKind": "All",
@@ -5907,10 +5831,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\underline.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\undo.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\undo.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/undo.svg",
       "AssetKind": "All",
@@ -5926,10 +5850,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\undo.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\user-profile.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\user-profile.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/user-profile.svg",
       "AssetKind": "All",
@@ -5945,10 +5869,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\user-profile.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\video.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\video.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/video.svg",
       "AssetKind": "All",
@@ -5964,10 +5888,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\video.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\video-colors.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\video-colors.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/video-colors.svg",
       "AssetKind": "All",
@@ -5983,10 +5907,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\video-colors.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\icons\\watermark.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\icons\\watermark.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/icons/watermark.svg",
       "AssetKind": "All",
@@ -6002,10 +5926,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\watermark.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\logo.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\logo.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/logo.svg",
       "AssetKind": "All",
@@ -6021,10 +5945,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\menu.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\menu.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/menu.svg",
       "AssetKind": "All",
@@ -6040,10 +5964,10 @@
       "OriginalItemSpec": "wwwroot\\images\\menu.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\open_doc.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\open_doc.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/open_doc.svg",
       "AssetKind": "All",
@@ -6059,10 +5983,10 @@
       "OriginalItemSpec": "wwwroot\\images\\open_doc.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\submit_doc.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\submit_doc.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/submit_doc.svg",
       "AssetKind": "All",
@@ -6078,10 +6002,10 @@
       "OriginalItemSpec": "wwwroot\\images\\submit_doc.svg"
     },
     {
-      "Identity": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\images\\weather.svg",
+      "Identity": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\images\\weather.svg",
       "SourceId": "eITPR",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\",
       "BasePath": "_content/eITPR",
       "RelativePath": "images/weather.svg",
       "AssetKind": "All",

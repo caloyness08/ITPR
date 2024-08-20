@@ -5,12 +5,23 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
   <ItemGroup>
-    <None Remove="Components\Pages\SearchItem.razor.css" />
+    <Compile Remove="wwwroot\css\open.iconic\**" />
+    <Content Remove="wwwroot\css\open.iconic\**" />
+    <EmbeddedResource Remove="wwwroot\css\open.iconic\**" />
+    <None Remove="wwwroot\css\open.iconic\**" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Components\Pages\SearchItem.razor.css" />
+    <Content Include="Components\SubComponents\SearchItem.razor.css" />
+    <Content Include="tailwind.config.js" />
+  </ItemGroup>
+    <ItemGroup>
+    <None Remove="Components\SubComponents\SearchItem - Copy.razor.css" />
+    <None Remove="Components\SubComponents\SearchItem.razor.css" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="DevExpress.Blazor" Version="24.1.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="wwwroot\js\" />
   </ItemGroup>
 </Project>

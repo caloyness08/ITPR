@@ -1720,27 +1720,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\00144601\\.nuget\\packages\\": {},
-    "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages": {},
+    "C:\\Users\\JC - DEV\\.nuget\\packages\\": {},
     "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\eITPR.csproj",
+      "projectUniqueName": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\eITPR.csproj",
       "projectName": "eITPR",
-      "projectPath": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\eITPR.csproj",
-      "packagesPath": "C:\\Users\\00144601\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\obj\\",
+      "projectPath": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\eITPR.csproj",
+      "packagesPath": "C:\\Users\\JC - DEV\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
         "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages"
       ],
       "configFilePaths": [
-        "D:\\Users\\00144601\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.2.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
+        "C:\\Users\\JC - DEV\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1748,8 +1744,9 @@
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\packages": {},
-        "D:\\Users\\00144601\\JC\\SOURCE CODE\\NuGetPackages": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1797,7 +1794,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

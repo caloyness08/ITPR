@@ -1,9 +1,13 @@
 ﻿@page "/"
 @rendermode InteractiveServer
 
+
+
 <PageTitle>Welcome</PageTitle>
 
+
 <div class="card w-100">
+ 
     <div class="card-body p-0">
         <DxMenu Orientation="Orientation.Horizontal"
                 DropDownActionMode="MenuDropDownActionMode.Click"
@@ -51,7 +55,7 @@
                 </DxMenuItem>
                 <DxMenuItem CssClass="search-menu-item" Position="ItemPosition.End">
                     <Template>
-                        <SearchItem />
+                    <SearchItem></SearchItem>
                     </Template>
                 </DxMenuItem>
                 <DxMenuItem CssClass="notoggle" Position="ItemPosition.End">
@@ -80,6 +84,7 @@
             </Items>
         </DxMenu>
     </div>
+
 </div>
 
 <div class="main-content">
@@ -116,3 +121,4 @@
         </Items>
     </DxGridLayout>
 </div>
+

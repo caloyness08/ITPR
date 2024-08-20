@@ -9,47 +9,51 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = eITPR
 build_property.RootNamespace = eITPR
-build_property.ProjectDir = D:\Users\00144601\JC\SOURCE CODE\eITPR\eITPR\
+build_property.ProjectDir = C:\Users\JC - DEV\source\repos_work\eITPR\eITPR\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Users\00144601\JC\SOURCE CODE\eITPR\eITPR
+build_property.MSBuildProjectDirectory = C:\Users\JC - DEV\source\repos_work\eITPR\eITPR
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Users/00144601/JC/SOURCE CODE/eITPR/eITPR/Components/App.razor]
+[C:/Users/JC - DEV/source/repos_work/eITPR/eITPR/Components/App.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/00144601/JC/SOURCE CODE/eITPR/eITPR/Components/Pages/Weather.razor]
+[C:/Users/JC - DEV/source/repos_work/eITPR/eITPR/Components/Pages/Weather.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xXZWF0aGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/00144601/JC/SOURCE CODE/eITPR/eITPR/Components/Routes.razor]
+[C:/Users/JC - DEV/source/repos_work/eITPR/eITPR/Components/Routes.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/00144601/JC/SOURCE CODE/eITPR/eITPR/Components/_Imports.razor]
+[C:/Users/JC - DEV/source/repos_work/eITPR/eITPR/Components/SubComponents/TwButton.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTdWJDb21wb25lbnRzXFR3QnV0dG9uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/JC - DEV/source/repos_work/eITPR/eITPR/Components/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/00144601/JC/SOURCE CODE/eITPR/eITPR/Components/Layout/MainLayout.razor]
+[C:/Users/JC - DEV/source/repos_work/eITPR/eITPR/Components/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-osbg6cyp6y
 
-[D:/Users/00144601/JC/SOURCE CODE/eITPR/eITPR/Components/Layout/NavMenu.razor]
+[C:/Users/JC - DEV/source/repos_work/eITPR/eITPR/Components/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-gwisrk5s9g
 
-[D:/Users/00144601/JC/SOURCE CODE/eITPR/eITPR/Components/Pages/Counter.razor]
+[C:/Users/JC - DEV/source/repos_work/eITPR/eITPR/Components/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb3VudGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-1a9qonjr82
 
-[D:/Users/00144601/JC/SOURCE CODE/eITPR/eITPR/Components/Pages/Index.razor]
+[C:/Users/JC - DEV/source/repos_work/eITPR/eITPR/Components/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xJbmRleC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-kfximni3hx
 
-[D:/Users/00144601/JC/SOURCE CODE/eITPR/eITPR/Components/Pages/SearchItem.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTZWFyY2hJdGVtLnJhem9y
-build_metadata.AdditionalFiles.CssScope = b-thr4sq0nw6
+[C:/Users/JC - DEV/source/repos_work/eITPR/eITPR/Components/SubComponents/SearchItem.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTdWJDb21wb25lbnRzXFNlYXJjaEl0ZW0ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-0jgikweiq1

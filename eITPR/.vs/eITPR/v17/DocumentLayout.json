@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C1CA7F02-CD26-450B-8FA7-6564FAB8F0E2}|eITPR.csproj|c:\\users\\jc - dev\\source\\repos_work\\eitpr\\eitpr\\wwwroot\\css\\eitpr.styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C1CA7F02-CD26-450B-8FA7-6564FAB8F0E2}|eITPR.csproj|solutionrelative:wwwroot\\css\\eitpr.styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "eITPR.styles.css",
+              "DocumentMoniker": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\css\\eITPR.styles.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\eITPR.styles.css",
+              "ToolTip": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\wwwroot\\css\\eITPR.styles.css",
+              "RelativeToolTip": "wwwroot\\css\\eITPR.styles.css",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAhwBoAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-20T16:43:35.813Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

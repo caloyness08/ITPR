@@ -1,5 +1,7 @@
 ﻿@page "/counter"
 @rendermode InteractiveServer
+@using eITPR.Components.SubComponents
+
 <PageTitle>Counter</PageTitle>
 
 <h1>Counter</h1>
@@ -13,8 +15,11 @@
             current count
         </div>
         <div class="counter-block-back"></div>
+       
     </div>
     <DxButton Click="IncrementCount">Click me</DxButton>
+
+
 </div>
 
 @code {
