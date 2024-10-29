@@ -1,0 +1,93 @@
+﻿@page "/view"
+
+@using Microsoft.AspNetCore.WebUtilities
+@using eITPR.Services
+@attribute [StreamRendering(true)]
+@rendermode InteractiveServer
+@inject WeatherForecastService ForecastService
+@inject DapperRepository<ItprMainView> mainManager
+@inject NavigationManager NavigationManager
+@inject IJSRuntime JSRuntime
+
+
+<PageTitle>View Records</PageTitle>
+<h1>View e-ITPR</h1>
+
+@if (main == null) {
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <DxGrid Data="@main" CssClass="mw-1100" 
+    ShowSearchBox=true 
+    FilterMenuButtonDisplayMode="GridFilterMenuButtonDisplayMode.Always"
+    @bind-SelectedDataItem="@SelectedDataItem"
+    KeyFieldName="id"
+    AllowSelectRowByClick=true
+    SelectionMode="GridSelectionMode.Single"
+    PageSize="5"
+    SizeMode="SizeMode.Medium"
+    >
+        
+        <Columns>
+            <DxGridDataColumn Caption="ITPR ID" FieldName="id" />
+            <DxGridDataColumn Caption="BUDID" FieldName="budgetId" />
+            <DxGridDataColumn Caption="Warrant ID" FieldName="warrantId" />
+            <DxGridDataColumn Caption="Project Name" FieldName="projectName" />
+            <DxGridDataColumn Caption="RC" FieldName="costCentre" />
+            <DxGridDataColumn Caption="Vendor Name" FieldName="vendorName" />
+            <DxGridDataColumn Caption="Currency" FieldName="currencyName" />
+            <DxGridDataColumn Caption="Amount" FieldName="totalAmount" />
+            <DxGridDataColumn Caption="Type" FieldName="typeName" />
+            <DxGridDataColumn Caption="Status" FieldName="statusName" />
+            <DxGridDataColumn Caption="Created" FieldName="createdDate" />
+            <DxGridDataColumn Caption="Event" >
+                <CellDisplayTemplate>
+                    <DxButton CssClass="mt-2 mr-1"
+                              RenderStyle="ButtonRenderStyle.Warning"
+                              IconCssClass="grid-toolbar-edit"
+                              @onclick="() => navigate((ItprMainView)context.DataItem)"
+                              Text="Edit" />
+                </CellDisplayTemplate>
+            </DxGridDataColumn>
+        </Columns>
+    </DxGrid>
+}
+
+@code {
+    private IEnumerable<ItprMainView>? main { get; set; }
+    private IJSObjectReference? module { get; set; }
+    private string stringEx {get;set;} = "";
+    DapperQueryString queryString = new DapperQueryString();
+    private object SelectedDataItem { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (main == null){
+            try {
+                main = await mainManager.GetAsync(queryString.GetSubmissions);
+                SelectedDataItem = main.FirstOrDefault();
+            }
+            catch (Exception ex) {
+                stringEx = ex.Message.ToString();
+            }
+        }
+    }
+    protected override async Task OnAfterRenderAsync(bool firstRender) {
+        if (firstRender) {
+            module = await JSRuntime.InvokeAsync<IJSObjectReference>("import", "../scripts/stepper.js");
+        }
+    }
+
+    protected void navigate(ItprMainView item) {
+
+        if (main != null) {
+            var queryStrDict = new Dictionary<string, string> {
+                    ["Id"] = item.id.ToString(),
+                    ["itprId"] = item.itprId,
+                    ["statusId"] = item.statusID.ToString()
+                };
+            NavigationManager.NavigateTo(QueryHelpers.AddQueryString("/counter", queryStrDict),true);
+        }
+    }
+}

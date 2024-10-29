@@ -1,4 +1,6 @@
-﻿.menu-icon {
+﻿/*Nav Menu */
+
+.menu-icon {
     width: 1rem;
     height: 1rem;
     min-width: 1rem;
@@ -9,6 +11,13 @@
     background-position: center center;
     background-color: currentColor;
     opacity: 0.7;
+}
+
+
+.menu-navbar {
+    background: rgb(255,206,67);
+    background: radial-gradient(circle, rgba(255,206,67,0.9051995798319328) 0%, rgba(241,235,193,1) 100%);
+
 }
 
 .menu-icon-home {
@@ -30,4 +39,63 @@
     display: flex;
     height: 30px;
     width: 120px; 
+}
+
+.logo {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.icon-step1 {
+
+    height:40px;
+    width: 45px;
+  
+}
+
+.info-icon-btn {
+    padding-left: .25rem;
+    padding-right: .25rem;
+}
+
+.info-icon {
+    display: inline-block;
+    background-color: lightcoral;
+    width: 16px;
+    height: 16px;
+    -webkit-mask-image: url("../images/icons/about.svg");
+    mask-image: url("../images/icons/about.svg");
+}
+
+.info-caption {
+    display: flex;
+    align-items: center;
+}
+
+/*Upload Container*/
+.upload-container,
+.upload-container > div:first-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.drop-file-icon {
+    background-size: contain;
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+    background-position: center center;
+    background-color: #ADB5BD;
+    width: 48px;
+    height: 48px;
+    -webkit-mask-image: url("../images/icons/drop-file.svg");
+    mask-image: url("../images/icons/drop-file.svg");
+}
+
+.drop-file-label {
+    font-weight: 500;
+    font-size: 1rem;
 }

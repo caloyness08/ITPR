@@ -1,0 +1,59 @@
+﻿@rendermode InteractiveServer
+
+<div class="d-flex align-items-center custom-toast-background">
+    <DxToastProvider Name="Overview"
+                     MaxToastCount="5"
+                     AnimationType="ToastAnimationType.Slide"
+                     HorizontalAlignment="HorizontalAlignment.Center"
+                     VerticalAlignment="VerticalEdge.Top"
+                     DisplayTime="TimeSpan.Zero"
+                     Width="400px"
+                     />
+</div>
+
+
+@code {
+    [Parameter]
+    public int ShowAlert { get; set; }
+
+    bool isNotificationVisible { get; set; } = false;
+
+    protected override async Task OnParametersSetAsync() {
+
+        await showNotification();
+        //StateHasChanged();
+    }
+
+    // protected override async Task OnAfterRenderAsync(bool firstRender) {
+    //     await showNotification();
+    //     isNotificationVisible = true;
+    // }
+
+    [Inject] IToastNotificationService ToastService { get; set; }
+
+    private async Task showNotification() {
+
+        //f(!isNotificationVisible)
+        await Task.Delay(300);
+        ToastService.ShowToast(new ToastOptions() {
+                Id = "TaskNotification",
+                ProviderName = "Overview",
+                ThemeMode = ToastThemeMode.Light,
+                RenderStyle = ToastRenderStyle.Warning,
+                Title = "Notification",
+                Text = "Are you sure you want to change the Budget ID?"
+            }, RenderButtons());
+    }
+
+    private RenderFragment RenderButtons() {
+        return@<div style="display: flex; gap: 0.5rem;">
+                    <DxButton RenderStyle="ButtonRenderStyle.Secondary">Ok</DxButton>
+                    <DxButton RenderStyle="ButtonRenderStyle.Secondary" Click="HideToast">Cancel</DxButton>
+               </div>;
+    }
+
+    private void HideToast() {
+        ToastService.CloseToast("TaskNotification");
+    }
+   
+}

@@ -1,0 +1,10 @@
+﻿.invalid-textbox {
+    /*border-style: none;*/
+    outline: 1px solid red;
+    color:red;
+
+}
+
+.valid-textbox {
+    outline: 1px solid green;
+}

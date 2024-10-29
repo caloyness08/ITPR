@@ -1,0 +1,462 @@
+﻿@using Microsoft.AspNetCore.WebUtilities
+
+
+@rendermode InteractiveServer
+@inject DapperRepository<Project> ProjectManager
+@inject DapperRepository<Drawdown> DrawdownManager
+@inject DapperRepository<PurchaseOrder> PoManager
+@inject DapperRepository<ItprMain> mainManager
+@inject DapperRepository<ItprMainView> mainViewManager
+@inject NavigationManager NavigationManager
+@inject IJSRuntime JSRuntime
+
+<DxLoadingPanel @bind-Visible="panelVisible"
+                IsContentBlocked="true"
+                CssClass="w-100"
+                ApplyBackgroundShading="true">
+    <form>
+        <div class="step step-1">
+            <!-- Step 1 form fields here -->
+            <h3 class="flex-header">Step 1: Choose Budget ID</h3>
+            <br />
+
+            @* BUDGET ID *@
+            <div class="flex-container">
+                <div class="flex-container-step1-box1"></div>
+                <div class="flex-container-step1-box2">
+                    <div>
+                        <DxButton CssClass="info-icon-btn"
+                                  IconCssClass="info-icon text-info"
+                                  RenderStyle="@ButtonRenderStyle.None"
+                                  Click="() => IsInfoOpen = !IsInfoOpen"
+                                  tabindex="-1"
+                                  aria-hidden="true" />
+                        <DxFlyout @bind-IsOpen=@IsInfoOpen
+                                  PositionTarget=".info-icon-btn"
+                                  PreventCloseOnPositionTargetClick="true"
+                                  Width="240">
+                            @constants.toolTip_budid
+                        </DxFlyout>
+                        <label>@constants.lbl_budgetID</label>
+                    </div>
+                    <div>
+                        <label>@constants.lbl_costCentre</label>
+                    </div>
+                    <div>
+                        <label>@constants.lbl_prjName</label>
+                    </div>
+                </div>
+                <div class="flex-container-column3 flex-container-step1-box3">
+                    <div>
+
+                        <DxTextBox CssClass="flex-container-step1-box3-textBox"
+                                   InputId="txtBudgetId"
+                                   NullText="Please provide Budget ID..."
+                                   @onchange="@OnBudgetIdChanged"
+                                   @bind-Text="@_budgetID" />
+
+                        @* TextChanged="@((val) => OnBudgetIdChanged(val))" *@
+                        @* <DxComboBox SelectedItemChanged="@((Project project) => SelectedProjectChanged(project))"
+                        CssClass="flex-container-step1-box3-comboBox"
+                        NullText="Please choose Budget ID..."
+                        Data="_projectList"
+                        @bind-Value="@_budgetID"
+                        TextFieldName="@nameof(project.BudgetId)"
+                        ValueFieldName="@nameof(project.BudgetId)"
+                        ShowValidationIcon="true"
+                        /> *@
+
+                    </div>
+
+                    <div>
+
+                        <DxTextBox Enabled=false CssClass="flex-container-step1-box3-textBox" InputId="txtCostCentre" @bind-Text="@_costCentre"></DxTextBox>
+                    </div>
+                    <div>
+
+                        <DxTextBox Enabled=false CssClass="flex-container-step1-box3-textBox" InputId="txtPrjName" @bind-Text="@_prjName"></DxTextBox>
+                    </div>
+
+                </div>
+            </div>
+            @* DRAWDOWN *@
+            <div class="flex-container">
+                <div class="flex-container-step1-box1 vertical-divider">
+
+                    <img src="images/drawdown.svg" class="icon-step1" />
+                    <h4>Drawdown</h4>
+
+                </div>
+                <div class="flex-container-step1-box2">
+                    <div>
+                        <label>@constants.lbl_Capex</label>
+                    </div>
+                    <div>
+                        <label>@constants.lbl_OneTimeOpex</label>
+                    </div>
+                    <div>
+                        <label>@constants.lbl_RecOpex</label>
+                    </div>
+                </div>
+                <div class="flex-container-step1-box3">
+                    <div>
+                        <DxTextBox Enabled=false CssClass="flex-container-step1-box3-textBox" @bind-Text="@_ddCapex" DisplayFormat="N2" NullText="0"></DxTextBox>
+                    </div>
+                    <div>
+                        <DxTextBox Enabled=false CssClass="flex-container-step1-box3-textBox" @bind-Text="@_ddOpex" DisplayFormat="N2" NullText="0"></DxTextBox>
+                    </div>
+                    <div>
+                        <DxTextBox Enabled=false CssClass="flex-container-step1-box3-textBox" @bind-Text="@constants.ddRecOpex" DisplayFormat="N2" NullText="0"></DxTextBox>
+                    </div>
+
+                </div>
+            </div>
+            @* PURCHASE ORDER *@
+            <div class="flex-container">
+                <div class="flex-container-step1-box1 vertical-divider">
+                    <img src="images/purchaseOrder.svg" class="icon-step1" />
+                    <h4>Total PO</h4>
+
+                </div>
+                <div class="flex-container-step1-box2">
+                    <div>
+                        <label>@constants.lbl_Capex</label>
+                    </div>
+                    <div>
+                        <label>@constants.lbl_Opex</label>
+                    </div>
+                </div>
+                <div class="flex-container-step1-box3">
+                    <div>
+                        <DxTextBox Enabled=false CssClass="flex-container-step1-box3-textBox" @bind-Text="@_poCapex" DisplayFormat="N2" NullText="0"></DxTextBox>
+                    </div>
+                    <div>
+                        <DxTextBox Enabled=false CssClass="flex-container-step1-box3-textBox" @bind-Text="@_poOpex" DisplayFormat="N2" NullText="0"></DxTextBox>
+                    </div>
+                </div>
+            </div>
+            @* AVAILABLE BUDGET *@
+            <div class="flex-container">
+                <div class="flex-container-step1-box1 vertical-divider">
+                    <img src="images/totalBudget.svg" class="icon-step1" />
+                    <h4>Available Budget</h4>
+
+                </div>
+                <div class="flex-container-step1-box2">
+                    <div>
+                        <label>@constants.lbl_Capex</label>
+                    </div>
+                    <div>
+                        <label>@constants.lbl_Opex</label>
+                    </div>
+                </div>
+                <div class="flex-container-step1-box3">
+                    <div>
+
+                        <DxTextBox CssClass="@(converter.ProcessDecimal(_totalCapex) >= 0 ? "flex-container-step1-box3-textBox" : "flex-container-step1-box3-textBox invalid-textbox")" @bind-Text="@_totalCapex" DisplayFormat="N2" NullText="0" Enabled=false></DxTextBox>
+                    </div>
+                    <div>
+                        <DxTextBox CssClass="@(converter.ProcessDecimal(_totalOpex) >= 0 ? "flex-container-step1-box3-textBox" : "flex-container-step1-box3-textBox invalid-textbox")" @bind-Text="@_totalOpex" DisplayFormat="N2" NullText="0" Enabled=false></DxTextBox>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <div class="flex-container">
+                <DxButton CssClass="info-icon-btn"
+                          IconCssClass="info-icon text-info"
+                          RenderStyle="@ButtonRenderStyle.None"
+                          Click="() => IsBtnNextOpen = !IsBtnNextOpen"
+                          tabindex="-1"
+                          aria-hidden="true" />
+                <DxFlyout @bind-IsOpen=@IsBtnNextOpen
+                          PositionTarget="#btnNext"
+                          PreventCloseOnPositionTargetClick="true"
+                          Width="240">
+                    @constants.toolTip_btnNext1
+                </DxFlyout>
+                <DxButton Id="btnNext"
+                          SubmitFormOnClick="false"
+                          CssClass="btn btn-primary next-step"
+                          Text="Next"
+                          Enabled="@(_isValidBudgetId)"
+                          Click="() => saveRecord()">
+                </DxButton>
+                @* <button type="button" class="btn btn-primary next-step">Next</button> *@
+            </div>
+            <br />
+            <br />
+
+        </div>
+    </form>
+
+</DxLoadingPanel>
+
+@* notif popup *@
+@if (showAlert > 0)
+{
+    <NotificationStep1 ShowAlert="@showAlert"></NotificationStep1>
+}
+
+
+@code {
+
+    //indicators
+    private IJSObjectReference? module;
+    private int showAlert = 0;
+    bool notificationVisible { get; set; }=false;
+    bool panelVisible { get; set; } = false;
+
+    //Services
+    ConverterService converter = new ConverterService();
+    Constants constants = new Constants();
+    DapperQueryString queryString = new DapperQueryString();
+
+    //Models
+    Project? project = new Project();
+    Drawdown drawdown = new Drawdown();
+    PurchaseOrder purchaseOrder = new PurchaseOrder();
+    ItprMain main = new ItprMain();
+    ItprMainView mainView = new ItprMainView();
+
+    //List
+    IEnumerable<Project> _projectList { get; set; }
+    IEnumerable<Drawdown>? _drawdownList = new List<Drawdown>();
+    IEnumerable<PurchaseOrder>? _poList = new List<PurchaseOrder>();
+    IEnumerable<ItprMainView> _mainViewList { get; set; }
+
+
+    //Parameters
+    [Parameter]
+    [SupplyParameterFromQuery]
+    public string Id { get; set; } = "";
+
+    [Parameter]
+    [SupplyParameterFromQuery]
+    public string itprId { get; set; } = "";
+
+    [Parameter]
+    [SupplyParameterFromQuery]
+    public int statusId { get; set; } = 0;
+
+
+
+    //Local variables
+    bool _isValidBudgetId { get; set; } = false;
+    string? _budgetID { get; set; }
+    string _costCentre { get; set; } = "";
+    string _prjName { get; set; } = "";
+    string _ddCapex { get; set; } = "0.00";
+    string _ddOpex { get; set; } = "0.00";
+    string _ddRecOpex { get; set; } = "0.00";
+    string _poCapex { get; set; } = "0.00";
+    string _poOpex { get; set; } = "0.00";
+    string _totalCapex { get; set; } = "0.00";
+    string _totalOpex { get; set; } = "0.00";
+    int _itprId { get; set; } = 0;
+
+    bool IsInfoOpen { get; set; } = false;
+    bool IsBtnNextOpen { get; set; } = false;
+
+
+    protected override async Task OnInitializedAsync() {
+
+        if (_projectList == null) {
+            _projectList = await ProjectManager.GetAsync(queryString.BudgetID_ProjectView);
+        }
+        //load record if not new submission
+        if(statusId > 1) {
+            _mainViewList = await mainViewManager.GetAsyncSP("[itpr].GetSubmissionsById", "id", Id);
+            if(_mainViewList != null) {
+                mainView = _mainViewList.FirstOrDefault() ?? new ItprMainView();
+                _budgetID = mainView.budgetId;
+                await loadRecord(_budgetID);
+            }
+
+        }        
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender) {
+        if (firstRender) {
+            module = await JSRuntime.InvokeAsync<IJSObjectReference>("import", "../scripts/stepper.js");
+        }
+    }
+
+
+    //on user input event
+    async Task OnBudgetIdChanged(ChangeEventArgs e) {
+
+        if (e != null) {
+            project = _projectList.Where(x => x.BudgetId == e.Value.ToString()).FirstOrDefault();
+            await loadRecord(e.Value.ToString());
+        }
+
+    }
+
+    async Task setDrawdownAmount(string budgetId) {
+
+        _drawdownList = await DrawdownManager.GetAsyncSP("[itpr].GetDrawdownAmount","budgetId", budgetId);
+
+        if (_drawdownList != null) {
+
+            drawdown = _drawdownList.FirstOrDefault() ?? new Drawdown();
+            _ddCapex = drawdown.drawdownCapex.ToString();
+            _ddOpex = drawdown.drawdownOpex.ToString();
+
+        }
+
+        if(budgetId == "0") {
+
+            _ddCapex = "0";
+            _ddOpex = "0";
+
+        }
+
+    }
+
+    async Task SetPurchaseOrderAmount(string budgetId) {
+
+        _poList = await PoManager.GetAsyncSP("[itpr].GetPoAmount", "budgetId", budgetId);
+        if(_poList != null) {
+            purchaseOrder = _poList.FirstOrDefault() ?? new PurchaseOrder();
+            _poCapex = purchaseOrder.poCapex.ToString() ?? "0";
+            _poOpex = purchaseOrder.poOpex.ToString() ?? "0";
+        }
+
+        if (budgetId == "0") {
+            _poCapex = "0";
+            _poOpex = "0";
+        }
+    }
+
+    async void CalcTotal() {
+
+        var totalCapex = (converter.ProcessDecimal(_ddCapex)) - (converter.ProcessDecimal(_poCapex));
+        var totalOpex = ((converter.ProcessDecimal(_ddOpex)) + (converter.ProcessDecimal(_ddRecOpex))) - (converter.ProcessDecimal(_poOpex));
+
+        _totalOpex = totalOpex.ToString();
+        _totalCapex = totalCapex.ToString();
+
+        if (totalOpex > 0 || totalCapex > 0) {
+            _isValidBudgetId = true;
+        }
+        else {
+
+            _isValidBudgetId = false;
+        }
+
+    }
+
+    //save record to [itpr].main
+    async Task saveRecord() {
+
+        //IF NEW SUBMISSION
+        if(statusId == 1) {
+            panelVisible = true;
+            SetRecordFields();
+            main = await mainManager.InsertAsync_Main(main, "[itpr].main");
+
+            //if success
+            if (main != null) {
+                //refresh page with query string parameters
+                await redirect(main.id.ToString(),main.itprId,main.statusId);
+                panelVisible = false;
+                return;
+            }
+        }
+        //if draft and above
+        if (statusId > 1) {
+            if (_budgetID != mainView.budgetId){
+                showAlert++;
+                StateHasChanged();
+                return;
+            }
+            //notificationVisible = true;
+            else{
+                await displayStep(2);
+                return;
+            }
+        }
+
+    }
+
+    async void SetRecordFields() {
+        main = new ItprMain() {
+
+                budgetId = _budgetID,
+                warrantId = project.pjkId,
+                projectName = project.Name,
+                costCentre = project.CostCentre,
+                entity = project.CostCentre.Substring(0, 3),
+                currencyId = project.currencyId,
+                capexAmount = converter.ProcessDecimal(_totalCapex),
+                opexAmount = converter.ProcessDecimal(_totalOpex),
+                totalAmount = converter.ProcessDecimal(_totalCapex) + converter.ProcessDecimal(_totalOpex),
+                typeId = 1,
+                statusId = 2,
+                createdDate = DateTime.Now,
+                budgetYear = project.budgetYear
+        };
+
+        await Task.Delay(100);
+    }
+
+    private async Task redirect(string id, string itprId, int statusId) {
+
+        if (main != null){
+            var queryStrDict = new Dictionary<string, string>
+                {
+                    ["Id"] = id,
+                    ["itprId"] = itprId,
+                    ["statusId"] = statusId.ToString()
+                };
+            NavigationManager.NavigateTo(QueryHelpers.AddQueryString("/counter", queryStrDict),true);
+
+            await Task.Delay(300);
+        }
+    }
+
+    private async Task loadRecord(string budgetId) {
+
+        project = _projectList.Where(x => x.BudgetId == budgetId).FirstOrDefault();
+
+        if (project != null) {
+            _costCentre = project.CostCentre ?? "";
+            _prjName = project.Name ?? "";
+
+
+            //populate drawdown fields
+            await setDrawdownAmount(budgetId);
+            //populate purchase Order fields
+            await SetPurchaseOrderAmount(budgetId);
+            //calculate and populate total fields
+            CalcTotal();
+        }
+
+
+        if (project == null || budgetId == "") {
+            _costCentre = "Invalid Budget ID...";
+            _prjName = "Invalid Budget ID...";
+            //reset drawdown to 0
+            await setDrawdownAmount("0");
+            //reset PO to 0
+            await SetPurchaseOrderAmount("0");
+            //recalculate budget available
+            CalcTotal();
+            _isValidBudgetId = false;
+
+        }
+    }
+
+    protected async Task displayStep(int stepId) {
+
+        if (module != null) {
+            panelVisible = true;
+            await Tools.displayStep(stepId, module);
+            panelVisible = false;
+        }
+
+    }
+
+  
+}
+

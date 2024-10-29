@@ -1,0 +1,111 @@
+﻿
+
+
+.flex-header {
+    display: flex;
+    /*background-color: DodgerBlue;*/
+    justify-content: center;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    /*background-color: DodgerBlue;*/
+    justify-content: center;
+    text-align:center;
+
+}
+
+/* FLEX BOX EFFECTS */
+
+/*STEP 1*/
+.flex-container-step1-box1 {
+    width: 23%;
+    align-items:center;
+    /*justify-content:right;*/
+    /*display:flex;*/
+}
+
+.flex-container-step1-box2 {
+    width: 16%;
+    align-content: center;
+    text-align: right;
+
+}
+
+.flex-container-step1-box3 {
+    width: 60%;
+    align-content: center;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+
+}
+.flex-container-step1-box3 > div {
+    padding: 3px;
+    
+}
+
+.flex-container-step1-box2 > div {
+padding: 3px;
+}
+
+.flex-container > div {
+    /*background-color: #f1f1f1;*/
+    margin: 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+/*COLUMN EFFECTS*/
+.flex-container-column1 {
+    /*background-color: #f1f1f1;*/
+    /*box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.16);*/
+}
+.flex-container-column2 {
+    /*box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.16);*/
+}
+.flex-container-column3 {
+  /*  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.16);*/
+
+}
+
+.flex-container-step1-box3 input {
+    text-align: left;
+    height: 30px;
+
+}
+
+.flex-container-step1-box2 label {
+    text-align: right;
+    height: 30px;
+    font-weight:600;
+}
+
+.flex-container-step1-box3-textBox{
+    border-style:none;
+    width:100%;
+}
+
+.flex-container-step1-box3-comboBox {
+    border-style: none;
+}
+.vertical-divider {
+    border-right: thin solid #000000;
+    border-color: lightseagreen;
+}
+
+
+ /* STEP 2 */
+
+.flex-container-step2-box1 {
+    width: 40%;
+    align-items:center;
+
+}
+
+
+
+
+.flex-container-step2-box1-textBox {
+    border-style: none;
+    width: 100%;
+}

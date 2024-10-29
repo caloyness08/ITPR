@@ -1,12 +1,71 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\JC - DEV\\Documents\\GitHub\\ITPR\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B429791D-6E60-4700-AF2C-A40F61FB379C}|eITPR\\eITPR.csproj|d:\\users\\00144601\\jc\\source code\\eitpr\\eitpr\\components\\subcomponents\\step2.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B429791D-6E60-4700-AF2C-A40F61FB379C}|eITPR\\eITPR.csproj|solutionrelative:eitpr\\components\\subcomponents\\step2.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B429791D-6E60-4700-AF2C-A40F61FB379C}|eITPR\\eITPR.csproj|d:\\users\\00144601\\jc\\source code\\eitpr\\eitpr\\components\\subcomponents\\step1.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B429791D-6E60-4700-AF2C-A40F61FB379C}|eITPR\\eITPR.csproj|solutionrelative:eitpr\\components\\subcomponents\\step1.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B429791D-6E60-4700-AF2C-A40F61FB379C}|eITPR\\eITPR.csproj|d:\\users\\00144601\\jc\\source code\\eitpr\\eitpr\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B429791D-6E60-4700-AF2C-A40F61FB379C}|eITPR\\eITPR.csproj|solutionrelative:eitpr\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Counter.razor",
+              "DocumentMoniker": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\Components\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "eITPR\\Components\\Pages\\Counter.razor",
+              "ToolTip": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\Components\\Pages\\Counter.razor",
+              "RelativeToolTip": "eITPR\\Components\\Pages\\Counter.razor",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAAFUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-25T08:54:12.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Step1.razor",
+              "DocumentMoniker": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\Components\\SubComponents\\Step1.razor",
+              "RelativeDocumentMoniker": "eITPR\\Components\\SubComponents\\Step1.razor",
+              "ToolTip": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\Components\\SubComponents\\Step1.razor",
+              "RelativeToolTip": "eITPR\\Components\\SubComponents\\Step1.razor",
+              "ViewState": "AQIAAPgAAAAAAAAAAAAewAUBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-25T08:47:58.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Step2.razor",
+              "DocumentMoniker": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\Components\\SubComponents\\Step2.razor",
+              "RelativeDocumentMoniker": "eITPR\\Components\\SubComponents\\Step2.razor",
+              "ToolTip": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\Components\\SubComponents\\Step2.razor",
+              "RelativeToolTip": "eITPR\\Components\\SubComponents\\Step2.razor",
+              "ViewState": "AQIAAOsAAAAAAAAAAAAAADIBAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T08:10:26.976Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

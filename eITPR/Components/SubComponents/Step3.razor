@@ -1,0 +1,86 @@
+﻿@using Microsoft.AspNetCore.WebUtilities
+
+
+@rendermode InteractiveServer
+@inject NavigationManager NavigationManager
+@inject IJSRuntime JSRuntime
+
+<form>
+    <div class="step step-3">
+        <!-- Step 1 form fields here -->
+        <h3 class="flex-header">Step 3: Upload Documents</h3>
+        <br />
+
+        <div class="upload-container">
+            <div style="@(SelectedFilesCount > 0 ? "display: none" : string.Empty)">
+                <span class="drop-file-icon mb-3"></span>
+                <span class="drop-file-label mb-3">Click the Select File button to select files</span>
+            </div>
+            <DxUpload Name="myFile"
+                      UploadMode="@UploadMode.OnButtonClick"
+                      AllowMultiFileUpload="true"
+                      UploadUrl="@GetUploadUrl("api/Upload/")"
+                      SelectedFilesChanged="@SelectedFilesChanged"
+                      MaxFileSize="15000000">
+            </DxUpload>
+            <br />
+            <DxGrid Data="@uploadFilesList"
+                    FocusedRowEnabled="false"
+                    PageSize="5"
+                    ColumnResizeMode="GridColumnResizeMode.NextColumn"
+                    TextWrapEnabled="false"
+                    EditMode="GridEditMode.PopupEditForm"
+                    PopupEditFormHeaderText="Add Vendor"
+                    PopupEditFormCssClass="vendorGridPop-style"
+                    HighlightRowOnHover="false"
+                    ColumnCaptionAlignment="GridTextAlignment.Center"
+                    >
+                <Columns>
+                    <DxGridDataColumn FieldName="fileName" MinWidth="100" />
+                    <DxGridDataColumn FieldName="fileSize" MinWidth="100" />
+                    <DxGridDataColumn FieldName="fileDesc" MinWidth="100" />
+                    <DxGridDataColumn FieldName="uploadDate" MinWidth="100" />
+                    <DxGridDataColumn Caption="Event">
+                        <CellDisplayTemplate>
+                            <DxButton CssClass="mt-2 mr-1"
+                                      RenderStyle="ButtonRenderStyle.Warning"
+                                      IconCssClass="grid-toolbar-drop-file"
+                                      Text="Download" />
+                        </CellDisplayTemplate>
+                    </DxGridDataColumn>
+                </Columns>
+
+            </DxGrid>
+        </div>
+
+      
+    </div>
+</form>
+
+
+
+
+@code {
+
+    int SelectedFilesCount { get; set; }
+
+    private IEnumerable<UploadFiles>? uploadFilesList;
+    private UploadFiles uploadMain { get; set; }
+
+    protected override async Task OnInitializedAsync() {
+        //load dropdrown list values
+        if (uploadFilesList == null)
+            uploadFilesList = await UploadFiles.GetUploadFiles();
+
+    }
+    
+    protected void SelectedFilesChanged(IEnumerable<UploadFileInfo> files) {
+        SelectedFilesCount = files.ToList().Count;
+        InvokeAsync(StateHasChanged);
+    }
+    protected string GetUploadUrl(string url) {
+        return NavigationManager.ToAbsoluteUri(url).AbsoluteUri;
+    }
+  
+}
+

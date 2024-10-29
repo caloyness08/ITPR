@@ -4,10 +4,10 @@
     height: auto;
 }
 
-[b-kfximni3hx] .welcome-gridlayout .dxbl-gridlayout-root {
-    align-content: center;
-    justify-content: center;
-}
+    [b-kfximni3hx] .welcome-gridlayout .dxbl-gridlayout-root {
+        align-content: center;
+        justify-content: center;
+    }
 
 [b-kfximni3hx] .title {
     text-align: center;
@@ -53,51 +53,18 @@
         text-decoration: unset;
     }
 
-    [b-kfximni3hx] .icon-fill {
-        fill: var(--bs-primary);
-    }
-
-    [b-kfximni3hx] .welcome-card .welcome-card-back {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background: var(--bs-body-color);
-        opacity: 0.05;
-        border-radius: 1rem;
-        z-index: -2;
-    }
-
-
-.user-profile .logo-container[b-kfximni3hx] {
-    margin-top: 1.25rem;
-    margin-bottom: 1.25rem;
+[b-kfximni3hx] .icon-fill {
+    fill: var(--bs-primary);
 }
 
-.user-profile .log-off-btn[b-kfximni3hx] {
-    padding-top: 0.815rem;
-    padding-bottom: 0.815rem;
-    border-top: 1px solid #e5e5e5;
-}
-
-.menu-icon-user-profile[b-kfximni3hx] {
-    width:30px;
-    height:30px;
-    opacity: 1;
-}
-
-.menu-icon-large[b-kfximni3hx] {
-    width: 100px;
-    height: 100px;
-}
-
-.user-profile .menu-icon-user-profile[b-kfximni3hx] {
-    opacity: 0.25;
-    margin-top: 1.25rem;
-    margin-bottom: 1.25rem;
-}
-
-.user-name-container .tm-8[b-kfximni3hx] {
-    opacity: 0.8;
+[b-kfximni3hx] .welcome-card .welcome-card-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--bs-body-color);
+    opacity: 0.05;
+    border-radius: 1rem;
+    z-index: -2;
 }

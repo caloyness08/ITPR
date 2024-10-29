@@ -4,10 +4,10 @@
     height: auto;
 }
 
-::deep .welcome-gridlayout .dxbl-gridlayout-root {
-    align-content: center;
-    justify-content: center;
-}
+    ::deep .welcome-gridlayout .dxbl-gridlayout-root {
+        align-content: center;
+        justify-content: center;
+    }
 
 ::deep .title {
     text-align: center;
@@ -53,51 +53,18 @@
         text-decoration: unset;
     }
 
-    ::deep .icon-fill {
-        fill: var(--bs-primary);
-    }
-
-    ::deep .welcome-card .welcome-card-back {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background: var(--bs-body-color);
-        opacity: 0.05;
-        border-radius: 1rem;
-        z-index: -2;
-    }
-
-
-.user-profile .logo-container {
-    margin-top: 1.25rem;
-    margin-bottom: 1.25rem;
+::deep .icon-fill {
+    fill: var(--bs-primary);
 }
 
-.user-profile .log-off-btn {
-    padding-top: 0.815rem;
-    padding-bottom: 0.815rem;
-    border-top: 1px solid #e5e5e5;
-}
-
-.menu-icon-user-profile {
-    width:30px;
-    height:30px;
-    opacity: 1;
-}
-
-.menu-icon-large {
-    width: 100px;
-    height: 100px;
-}
-
-.user-profile .menu-icon-user-profile {
-    opacity: 0.25;
-    margin-top: 1.25rem;
-    margin-bottom: 1.25rem;
-}
-
-.user-name-container .tm-8 {
-    opacity: 0.8;
+::deep .welcome-card .welcome-card-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--bs-body-color);
+    opacity: 0.05;
+    border-radius: 1rem;
+    z-index: -2;
 }

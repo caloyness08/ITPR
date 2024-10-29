@@ -9,6 +9,7 @@ html, body {
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    /*zoom: 95%;*/
 }
 
 .valid.modified:not([type=checkbox]) {
@@ -80,6 +81,7 @@ html, body {
     align-items: center;
     height: 100%;
     width: 100%;
+
 }
 
 .block-content {
@@ -89,4 +91,8 @@ html, body {
     flex-direction: column;
     gap: 0.625rem;
     max-width: 100%;
+}
+
+.page-zoom{
+    zoom:95%;
 }

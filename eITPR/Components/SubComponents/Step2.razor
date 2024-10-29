@@ -1,0 +1,618 @@
+﻿@rendermode InteractiveServer
+@inject NavigationManager NavManager
+@implements IDisposable
+@inject IJSRuntime JSRuntime
+@inject DapperRepository<ItprMainView> mainManager
+@inject DapperRepository<ItprMain> itprMainManager
+@inject DapperRepository<vendorMain> vendorManager
+@inject DapperRepository<vendorMain> vendorMainManager
+@inject DapperRepository<Personnel> personnelManager
+
+
+<DxLoadingPanel @bind-Visible="panelVisible"
+                IsContentBlocked="true"
+                CssClass="w-100"
+                ApplyBackgroundShading="true">
+<form>
+    <div class="step step-2">
+        <!-- Step 1 form fields here -->
+        <h3 class="flex-header">Step 2: ITPR Information</h3>
+        <br />
+
+        <div class="flex-container">
+            <DxFormLayout CssClass="w-100">
+                <DxFormLayoutTabPages @bind-ActiveTabIndex="@ActiveTabIndex" RenderMode="TabsRenderMode.OnDemand">
+                    @*Tab 1*@
+                    <DxFormLayoutTabPage Caption="ITPR Information">
+                        @* <div class="flex-container-step2-box1">
+                        </div> *@
+                        <DxFormLayoutItem Caption="ITPR ID:">
+                            <DxTextBox Enabled=false @bind-Text=@Id></DxTextBox>
+                        </DxFormLayoutItem>
+                        <DxFormLayoutItem>
+                            <CaptionTemplate>
+                                <ToolTip  ToolTipMsg="@constants.toolTip_typeName2" TargetId="#ddlType" Caption="ITPR Type:" />
+                            </CaptionTemplate>
+                            <Template>
+                                <DxComboBox Data="itprTypeList"
+                                            NullText="[Required] - Select ITPR Type..."
+                                            @bind-Value="itprType"
+                                            ValueFieldName="id"
+                                            TextFieldName="desc"
+                                            InputId="ddlType"
+                                            TextChanged="@itprTypeChanged" 
+                                            />
+                                   @*  <p>TYPE ID:@itprType?.id</p> *@
+                                   @* SelectedItemChanged="@((ItprType type) => itprType_Click(type))" *@
+                            </Template>
+                        </DxFormLayoutItem>
+                        @*  Group 1 *@
+                        <DxFormLayoutGroup Caption="Budget Source">
+                            <DxFormLayoutItem Caption="Budget ID:">
+                                <DxTextBox CssClass="flex-container-step2-box1-textBox" Text="@(main.budgetId)" Enabled=false></DxTextBox>
+                            </DxFormLayoutItem>
+                            <DxFormLayoutItem Caption="Project Name:">
+                                <DxTextBox CssClass="flex-container-step2-box1-textBox" Text="@(main.projectName)" Enabled=false></DxTextBox>
+                            </DxFormLayoutItem>
+                            <DxFormLayoutItem Caption="Cost Centre:">
+                                <DxTextBox CssClass="flex-container-step2-box1-textBox" Text="@(main.costCentre)" Enabled=false></DxTextBox>
+                            </DxFormLayoutItem>
+                            <DxFormLayoutItem Caption="Entity Type:">
+                                <DxTextBox CssClass="flex-container-step2-box1-textBox" Text="@(main.entityName)" Enabled=false></DxTextBox>
+                            </DxFormLayoutItem>
+                        </DxFormLayoutGroup>
+                        @*  Group 2 *@
+                        <DxFormLayoutGroup Caption="Vendor Information">
+                            <DxFormLayoutItem>
+                                <CaptionTemplate >
+                                    <ToolTip ToolTipMsg="@constants.toolTip_vendorType" TargetId="#ddlVendorType" Caption="Vendor Type:" />
+                                </CaptionTemplate>
+                                <Template>
+                                    <DxComboBox Data="vendorTypeList"
+                                                NullText="[Required] - Select Vendor Type..."
+                                                @bind-Value="_vendorType"
+                                                TextFieldName="@nameof(vendorType.desc)"
+                                                ValueFieldName="@nameof(vendorType.desc)"
+                                                InputId="ddlVendorType"
+                                                TextChanged="@vendorTypeChanged"
+                                                />
+                              @*       SelectedItemChanged="@((vendorType type) => vendorType_Click(type))" *@
+                                </Template>
+                            </DxFormLayoutItem>
+                            <DxFormLayoutItem Caption="Foreign Vendor:">
+                                <DxTextBox CssClass="flex-container-step2-box1-textBox" Enabled=false></DxTextBox>
+                            </DxFormLayoutItem>
+                            <DxFormLayoutItem>
+                                 <CaptionTemplate>
+                                    <ToolTip ToolTipMsg="@constants.toolTip_vendorName" TargetId="@(isVendorNew == true ? "#txtVendorName" : "#ddlVendorName")" Caption="Vendor Name:" />
+                                </CaptionTemplate>
+                                <Template>
+                                    @if(isVendorNew){
+                                    <DxTextBox 
+                                    Text="@_vendorName"
+                                    NullText="[Required] - Type in Vendor Name..." 
+                                    Id="txtVendorName"
+                                    TextChanged="@vendorNameChanged" />
+                                    }
+                                    @if (isVendorExisting){
+                                        <DxComboBox Data="vendorList"
+                                        NullText="[Required] - Select Vendor Name..."
+                                        @bind-Value="itprType"
+                                        TextFieldName="@nameof(vendorMain.vendorName)"
+                                        ValueFieldName="@nameof(vendorMain.vendorName)"
+                                        SearchMode="@ListSearchMode.AutoSearch"
+                                        SearchFilterCondition="@ListSearchFilterCondition.Contains"
+                                        ListRenderMode="ListRenderMode.Virtual"
+                                        InputId="ddlVendorName"
+                                        TextChanged="@vendorNameChanged"
+                                         />
+                                    }
+                                    @*  SelectedItemChanged="@((ItprVendor vendor) => LoadContractByVendor(vendor))" *@
+                                </Template>
+                            </DxFormLayoutItem>
+                            <DxFormLayoutItem Caption="Contract ID:">
+                                <DxTextBox @bind-Text="@_vendorContract" NullText="[Optional] - Type in Contract ID..." Id="txtContractID"></DxTextBox>
+                            </DxFormLayoutItem>
+                        </DxFormLayoutGroup>
+                        @*  Group 3 *@
+                        <DxFormLayoutGroup Caption="WHT CONFIRMATION (For Foreign Vendors Only)">
+                            <DxFormLayoutItem Caption="Withholding Tax:">
+                                <DxComboBox Data="generalOptions"
+                                            @bind-Value="@_whtTaxFlag"
+                                            NullText="[Required]- Select Yes or No..." />
+                            </DxFormLayoutItem>
+                            <DxFormLayoutItem Caption="WHT Borne By:">
+                                <DxComboBox Data="@whtBorneBy"
+                                            @bind-Value="@_whtBorneBy"
+                                            NullText="[Required]- Select Type..." />
+                            </DxFormLayoutItem>
+
+                            <DxFormLayoutItem Caption="WHT Rate(%):">
+                                <DxSpinEdit @bind-Value="@_taxRate"
+                                            CssClass="cw-320"
+                                            InputId="txtTaxRate" />
+                            </DxFormLayoutItem>
+                            <DxFormLayoutItem Caption="Obtained Advice From Group Tax:">
+                                <DxComboBox Data="generalOptions"
+                                            @bind-Value="@_grpTaxFlag"
+                                            NullText="[Required]- Select Yes or No..." />
+                            </DxFormLayoutItem>
+                        </DxFormLayoutGroup>
+                    </DxFormLayoutTabPage>
+                    @*Tab 2*@
+                    <DxFormLayoutTabPage Caption="Vendor Details">
+                        <div>
+                            <br />
+                            <h3>Vendor GL</h3>
+                        </div>
+                            @*  Grid View *@
+                        <DxGrid Data="@glVendorList"
+                                @ref="GridVendor"
+                                FocusedRowEnabled="true"
+                                PageSize="5"
+                                SizeMode="SizeMode.Medium"
+                                CssClass="mw-1100"
+                                ColumnResizeMode="GridColumnResizeMode.NextColumn" 
+                                TextWrapEnabled="false"
+                                EditMode="GridEditMode.PopupEditForm"
+                                PopupEditFormHeaderText="Add Vendor"
+                                PopupEditFormCssClass="vendorGridPop-style"
+                                HighlightRowOnHover="true"
+                                ColumnCaptionAlignment="GridTextAlignment.Center"
+                                    >
+                            <ToolbarTemplate>
+                                <DxToolbar ItemRenderStyleMode="ToolbarRenderStyleMode.Plain">
+                                    <DxToolbarItem Text="New" Click="NewItem_Click" IconCssClass="grid-toolbar-new" />
+                                    <DxToolbarItem Text="Edit" Click="EditItem_Click" IconCssClass="grid-toolbar-edit" Enabled="EditItemsEnabled" />
+                                    <DxToolbarItem Text="Delete" Click="DeleteItem_Click" IconCssClass="grid-toolbar-delete" Enabled="EditItemsEnabled" />
+                                    <DxToolbarItem Text="Column Chooser" BeginGroup="true" Click="ColumnChooserItem_Click" IconCssClass="grid-toolbar-column-chooser" />
+                                    <DxToolbarItem Text="Export" IconCssClass="grid-toolbar-export">
+                                        <Items>
+                                            <DxToolbarItem Text="To CSV" Click="ExportCsvItem_Click" />
+                                            <DxToolbarItem Text="To XLSX" Click="ExportXlsxItem_Click" />
+                                            <DxToolbarItem Text="To XLS" Click="ExportXlsItem_Click" />
+                                        </Items>
+                                    </DxToolbarItem>
+                                </DxToolbar>
+                            </ToolbarTemplate>
+                            <Columns>
+                                <DxGridDataColumn FieldName="id" MinWidth="50" />
+                                <DxGridDataColumn FieldName="glCode" MinWidth="100" />
+                                <DxGridDataColumn FieldName="glDesc" MinWidth="100" />
+                                <DxGridDataColumn FieldName="glDesc2" MinWidth="100" />
+                                <DxGridDataColumn FieldName="itprDesc" MinWidth="150" />
+                                <DxGridBandColumn Caption="Service Period" >
+                                    <Columns>
+                                        <DxGridDataColumn FieldName="startDate" MinWidth="100" />
+                                        <DxGridDataColumn FieldName="endDate" MinWidth="100" />
+                                    </Columns>
+                                </DxGridBandColumn>
+                                <DxGridDataColumn FieldName="currencyId" MinWidth="80" Visible=false />
+                                <DxGridDataColumn FieldName="currencyName" MinWidth="80" />
+                                <DxGridDataColumn FieldName="amountMyr" MinWidth="80" Visible=false />
+                                <DxGridDataColumn FieldName="amountLocal" Caption="amount" MinWidth="80" />
+                            </Columns>
+                            <EditFormTemplate Context="EditFormContext">
+                                <DxFormLayout CssClass="w-100">
+                                    <DxFormLayoutItem Caption="GL Code:" ColSpanMd="6">
+                                        <DxComboBox Data="glVendorList"
+                                                    NullText="[Required] - Select GL Code..."
+                                                    @bind-Value="_vendorGlCode"
+                                                    TextFieldName="@nameof(_vendorMain.glCode)"
+                                                    ValueFieldName="@nameof(_vendorMain.glCode)"
+                                                    InputId="ddlType" />
+                                    </DxFormLayoutItem>
+                                    <DxFormLayoutItem Caption="GL Desc:" ColSpanMd="6" Enabled="false">
+                                        @EditFormContext.GetEditor("glDesc")
+                                    </DxFormLayoutItem>
+                                    <DxFormLayoutItem Caption="GL Desc2:" ColSpanMd="6" Enabled=false>
+                                        @EditFormContext.GetEditor("glDesc2")
+                                    </DxFormLayoutItem>
+                                    <DxFormLayoutItem Caption="Itpr Desc:" ColSpanMd="6" Enabled=false>
+                                        @EditFormContext.GetEditor("itprDesc")
+                                    </DxFormLayoutItem>
+                                       <DxFormLayoutItem Caption="Start Date:" ColSpanMd="6" Enabled=false>
+                                        <DxDateEdit @bind-Date="@_startDate"></DxDateEdit>
+                                    </DxFormLayoutItem>
+                                    <DxFormLayoutItem Caption="End Date:" ColSpanMd="6" Enabled=false>
+                                        <DxDateEdit @bind-Date="@_endDate"></DxDateEdit>
+                                    </DxFormLayoutItem>
+                                    <DxFormLayoutItem Caption="Currency:" ColSpanMd="6" Enabled=false>
+                                        @EditFormContext.GetEditor("currencyName")
+                                    </DxFormLayoutItem>
+                                    <DxFormLayoutItem Caption="Amount:" ColSpanMd="6" Enabled=false>
+                                        <DxSpinEdit @bind-Value="@_glAmount"
+                                                    CssClass="cw-320"
+                                                    InputId="txtGlAmount" />
+                                    </DxFormLayoutItem>
+                                </DxFormLayout>
+                            </EditFormTemplate>
+                            <EmptyDataAreaTemplate>
+                                <b>@GetEmptyDataAreaMessage(context.Grid)</b>
+                            </EmptyDataAreaTemplate>
+                        </DxGrid>
+                    </DxFormLayoutTabPage>
+                    @*Tab 3*@
+                    <DxFormLayoutTabPage Caption="Personnel Details">
+                        <div>
+                            <br />
+                            <h3>Personnel</h3>
+                         
+                        </div>
+                        @*  Grid View *@
+                        <DxGrid Data="@personnelList"
+                                @ref="GridVendor"
+                                FocusedRowEnabled="true"
+                                PageSize="5"
+                                ColumnResizeMode="GridColumnResizeMode.NextColumn"
+                                TextWrapEnabled="false"
+                                EditMode="GridEditMode.PopupEditForm"
+                                PopupEditFormHeaderText="Add Vendor"
+                                PopupEditFormCssClass="vendorGridPop-style"
+                                HighlightRowOnHover="true"
+                                ColumnCaptionAlignment="GridTextAlignment.Center"
+                                text>
+                            <ToolbarTemplate>
+                                <DxToolbar ItemRenderStyleMode="ToolbarRenderStyleMode.Plain">
+                                    <DxToolbarItem Text="New" Click="NewItem_Click" IconCssClass="grid-toolbar-new" />
+                                    <DxToolbarItem Text="Edit" Click="EditItem_Click" IconCssClass="grid-toolbar-edit" Enabled="EditItemsEnabled" />
+                                    <DxToolbarItem Text="Delete" Click="DeleteItem_Click" IconCssClass="grid-toolbar-delete" Enabled="EditItemsEnabled" />
+                                    <DxToolbarItem Text="Column Chooser" BeginGroup="true" Click="ColumnChooserItem_Click" IconCssClass="grid-toolbar-column-chooser" />
+                                    <DxToolbarItem Text="Export" IconCssClass="grid-toolbar-export">
+                                        <Items>
+                                            <DxToolbarItem Text="To CSV" Click="ExportCsvItem_Click" />
+                                            <DxToolbarItem Text="To XLSX" Click="ExportXlsxItem_Click" />
+                                            <DxToolbarItem Text="To XLS" Click="ExportXlsItem_Click" />
+                                        </Items>
+                                    </DxToolbarItem>
+                                </DxToolbar>
+                            </ToolbarTemplate>
+                            <Columns>
+                                <DxGridDataColumn FieldName="id" MinWidth="50" />
+                                <DxGridDataColumn FieldName="roleDesc" MinWidth="100" />
+                                <DxGridDataColumn FieldName="name" MinWidth="100" />
+                                <DxGridDataColumn FieldName="email" MinWidth="100" />
+                            </Columns>
+                            <EditFormTemplate Context="EditFormContext">
+                                <DxFormLayout CssClass="w-100">
+                                    <DxFormLayoutItem Caption="PF ID:" ColSpanMd="6">
+                                        <DxComboBox Data="personnelPfList"
+                                                    NullText="[Required] - Select PFID or Name..."
+                                                    @bind-Value="_PFID"
+                                                    TextFieldName="@nameof(personnelMain.name)"
+                                                    ValueFieldName="@nameof(personnelMain.name)"
+                                                    InputId="ddlPFID" />
+                                    </DxFormLayoutItem>
+                                    <DxFormLayoutItem Caption="Role:" ColSpanMd="6" Enabled="false">
+                                        <DxComboBox Data="personnelRole"
+                                                    NullText="[Required] - Select Role..."
+                                                    @bind-Value="_personnelRole"
+                                                    InputId="ddlPersonnelRole" />
+                                    </DxFormLayoutItem>
+                                    <DxFormLayoutItem Caption="Full Name:" ColSpanMd="6" Enabled=false>
+                                        @EditFormContext.GetEditor("name")
+                                    </DxFormLayoutItem>
+                                    <DxFormLayoutItem Caption="E-mail:" ColSpanMd="6" Enabled=false>
+                                        @EditFormContext.GetEditor("email")
+                                    </DxFormLayoutItem>
+                                </DxFormLayout>
+                            </EditFormTemplate>
+                            <EmptyDataAreaTemplate>
+                                <b>@GetEmptyDataAreaMessage(context.Grid)</b>
+                            </EmptyDataAreaTemplate>
+                        </DxGrid>
+                    </DxFormLayoutTabPage>
+                </DxFormLayoutTabPages>
+            </DxFormLayout>
+        </div>
+        <div class="flex-container">
+            <div class="flex-container-step2-box1">
+                <DxButton Id="btnStep1" SubmitFormOnClick="false" CssClass="btn btn-primary prev-step" Text="<< Step 1" />
+                <DxButton Id="btnPrev" SubmitFormOnClick="false" CssClass="btn btn-primary" Text="Previous" Click="prevStep" />
+                <DxButton Id="btnNext" SubmitFormOnClick="false" CssClass="btn btn-primary" Text="Next" Enabled="@(_isValid)" Click="nextStep"  />
+                <DxButton CssClass="info-icon-btn"
+                          IconCssClass="info-icon text-info"
+                          RenderStyle="@ButtonRenderStyle.None"
+                          Click="() => IsBtnNextOpen = !IsBtnNextOpen"
+                          tabindex="-1"
+                          aria-hidden="true"
+                          Id="btnVendorTab_1" />
+                <DxFlyout @bind-IsOpen=@IsBtnNextOpen
+                          PositionTarget="#btnVendorTab_1"
+                          PreventCloseOnPositionTargetClick="true"
+                          Width="240">
+                    @constants.toolTip_vendorTab_1
+                </DxFlyout>
+            </div>
+          
+        </div>
+    </div>
+</form>
+</DxLoadingPanel>
+@code {
+
+    //indicators
+    bool panelVisible { get; set; } = false;
+    private IJSObjectReference? module;
+    bool IsBtnNextOpen { get; set; } = false;
+    int ActiveTabIndex { get; set; } = 0;
+    bool _isValid { get; set; } = false;
+    bool isVendorSelected { get; set; } = false;
+
+    //List
+    private IEnumerable<ItprType>? itprTypeList;
+    private IEnumerable<vendorType>? vendorTypeList { get; set; }
+    private IEnumerable<ItprMainView>? mainList { get; set; }
+    private IEnumerable<vendorMain>? vendorMainList { get; set; }
+    private IEnumerable<vendorMain>? vendorList { get; set; }
+    private IEnumerable<vendorMain>? vendorContractList { get; set; }
+    private IEnumerable<VendorMain>? glVendorList { get; set; } 
+    private IEnumerable<Personnel>? personnelList { get; set; }
+    private IEnumerable<Personnel>? personnelPfList { get; set; } = new List<Personnel>();
+    private IEnumerable<string> generalOptions = new[] { "YES", "NO" };
+    private IEnumerable<string> whtBorneBy = new[] { "VENDOR", "MBB","MSS" };
+    private IEnumerable<string> personnelRole = new[] { "APPROVER", "EDITOR" };
+
+
+    //Models
+    private ItprType itprType { get; set; }
+    private vendorMain vendorMain { get; set; }
+    private vendorMain vendorContract { get; set; }
+    private vendorType vendorType { get; set; }
+    private VendorMain _vendorMain { get; set; }
+    private Personnel personnelMain { get; set; }
+    private ItprMainView main = new ItprMainView();
+    private ItprMain itprMain { get; set; }
+    //services
+    DapperQueryString queryString = new DapperQueryString();
+    Constants constants = new Constants();
+    ConverterService converter = new ConverterService();
+
+    //local variables
+    string _vendorType { get; set; } = "";
+    string _vendorName { get; set; } = "";
+    string _vendorContract { get; set; } = "";
+    string _itprType { get; set; } = "";
+    string _itprTypeId { get; set; } = "";
+    string _vendorGlCode { get; set; } = "";
+    string _PFID { get; set; } = "";
+    string _itprId { get; set; } = "";
+    IGrid GridVendor { get; set; }
+    const string ExportFileName = "ExportResult";
+    bool EditItemsEnabled { get; set; }
+    int FocusedRowVisibleIndex { get; set; }
+    string _whtTaxFlag { get; set; } = "No";
+    string _grpTaxFlag { get; set; } = "No";
+    string _whtBorneBy { get; set; } = "";
+    Decimal _taxRate { get; set; } = 0.00m;
+    DateTime _startDate { get; set; } = DateTime.Now;
+    DateTime _endDate { get; set; } = DateTime.Now;
+    Decimal _glAmount { get; set; } = 0.00m;
+    string _personnelRole { get; set; } = "";
+    bool isVendorExisting { get; set; } = false;
+    bool isVendorNew { get; set; } = false;
+    int checkFlag { get; set; } = 0;
+
+    [Parameter]
+    [SupplyParameterFromQuery]
+    public string? Id { get; set; }
+
+    [Parameter]
+    [SupplyParameterFromQuery]
+    public int? statusId { get; set; }
+
+
+
+    protected override async Task OnInitializedAsync() {
+
+        NavManager.LocationChanged += HandleLocationChanged;
+
+        if (Id != null) {
+            panelVisible = true;
+
+            //get itpr record by id
+            if (mainList == null) {
+                mainList = await mainManager.GetAsyncSP("[itpr].GetSubmissionsById", "id", Id);
+                main = mainList.FirstOrDefault() ?? new ItprMainView();
+            }
+            //load dropdrown list values
+            if (itprTypeList == null)
+                itprTypeList = await ItprType.GetItprType();
+
+            if (vendorTypeList == null)
+                vendorTypeList = await vendorType.GetVendorType();
+
+            //load vendor main 
+            if (vendorMainList == null) {
+                vendorMainList = await vendorMainManager.GetAsync(queryString.GetVendorMain);
+                vendorMain = vendorMainList.FirstOrDefault() ?? new vendorMain();
+
+                //set selected item of dropDown
+                itprType = itprTypeList.Where(x => x.id == vendorMain.id).FirstOrDefault() ?? new ItprType();
+                _vendorType = vendorMain.vendorType;
+                _vendorName = vendorMain.vendorName;
+                _vendorContract = vendorMain.contractNo;
+
+            }
+
+            //load vendor list
+            if (vendorList == null && vendorContractList == null) {
+                vendorList = await vendorManager.GetAsync(queryString.GetVendorNameList);
+                vendorContractList = await vendorManager.GetAsync(queryString.GetContractsList);
+            }
+
+            if (glVendorList == null) {
+                glVendorList = await VendorMain.GetVendorMain();
+            }
+            if(personnelList == null) {
+                personnelList = await Personnel.GetPersonnel();
+            }
+
+            panelVisible = false;
+        }
+    }
+    protected override async Task OnAfterRenderAsync(bool firstRender) {
+        if (firstRender) {
+            module = await JSRuntime.InvokeAsync<IJSObjectReference>("import", "../scripts/stepper.js");
+
+        }
+    }
+
+    void HandleLocationChanged(object sender, LocationChangedEventArgs e) {
+        StateHasChanged();
+    }
+    public void Dispose() {
+        NavManager.LocationChanged -= HandleLocationChanged;
+    }
+
+    protected async Task displayStep(int stepId) {
+
+        if (module != null) {
+            panelVisible = true;
+            await Tools.displayStep(stepId, module);
+            panelVisible = false;
+        }
+
+    }
+    private async Task LoadContractByVendor(vendorMain vendor) {
+
+        //get contracts base on selected vendorName
+        if (vendorContractList != null && vendor != null) {
+            vendorContractList = vendorContractList.Where(x => x.vendorName == vendor.vendorName);
+            isVendorSelected = true;
+            _isValid = true;
+            await Task.Delay(100);
+        }
+
+    }
+
+
+
+    //TAB 1 FUNCTION AND EVENTS
+    private async Task nextStep() {
+        if (ActiveTabIndex == 3) {
+            //do final validation
+
+        }
+        else {
+            //reset checking for required fields
+
+            //move to next tab
+            panelVisible = true;
+            await insertVendorMain();
+            await Task.Delay(300);
+            checkFlag = 0;
+            ActiveTabIndex++;
+            panelVisible = false;
+        }
+    }
+    private void prevStep() {
+        if (ActiveTabIndex > 0) {
+            //reset checking for required fields
+            checkFlag = 0;
+            //move to next tab
+            ActiveTabIndex--;
+        }
+    }
+
+    private async Task itprTypeChanged(string val) {
+        if (val != null) {
+            _itprType = val;
+            await validateTab1();
+        }
+
+    }
+
+    private async Task vendorNameChanged(string newValue) {
+        if (newValue != null) {
+            _vendorName = newValue;
+            await validateTab1();
+        }
+
+    }
+
+    private async Task vendorTypeChanged(string newValue) {
+        if (newValue != null) {
+            _vendorType = newValue;
+
+            if(_vendorType == "NEW") {
+                isVendorNew = true;
+                isVendorExisting = false;
+            }
+            if (_vendorType == "EXISTING") {
+                isVendorNew = false;
+                isVendorExisting = true;
+            }
+
+            await validateTab1();
+        }
+
+    }
+
+
+
+    private async Task validateTab1() {
+        if (_itprType != "" && _vendorName != "") {
+            _isValid = true;
+            await Task.Delay(100);
+        }
+        else {
+            _isValid = false;
+            await Task.Delay(100);
+        }
+    }
+    private async Task insertVendorMain() {
+
+
+        vendorMain = new vendorMain();
+        vendorMain.itprId = main.id;
+        vendorMain.amountTypeId = itprType.id;
+        vendorMain.vendorName = _vendorName;
+        vendorMain.contractNo = _vendorContract;
+        vendorMain.whtFlag = _whtTaxFlag;
+        vendorMain.whtOwner = _whtBorneBy;
+        vendorMain.whtRate = _taxRate;
+        
+        var result = await vendorMainManager.InsertAsync_VendorMain(vendorMain,"[itpr].vendorMain");
+
+    }
+
+    //TAB 2 FUNCTION AND EVENTS
+    async Task NewItem_Click() {
+        await GridVendor.StartEditNewRowAsync();
+    }
+    async Task EditItem_Click() {
+        await GridVendor.StartEditRowAsync(FocusedRowVisibleIndex);
+    }
+    void DeleteItem_Click() {
+        GridVendor.ShowRowDeleteConfirmation(FocusedRowVisibleIndex);
+    }
+    void ColumnChooserItem_Click(ToolbarItemClickEventArgs e) {
+        GridVendor.ShowColumnChooser();
+    }
+    async Task ExportXlsxItem_Click() {
+        await GridVendor.ExportToXlsxAsync(ExportFileName);
+    }
+    async Task ExportXlsItem_Click() {
+        await GridVendor.ExportToXlsAsync(ExportFileName);
+    }
+    async Task ExportCsvItem_Click() {
+        await GridVendor.ExportToCsvAsync(ExportFileName);
+    }
+    private string GetEmptyDataAreaMessage(IGrid grid) {
+        var hasFilter = !object.ReferenceEquals(grid.GetFilterCriteria(), null) || !string.IsNullOrEmpty(grid.SearchText);
+        var waitingForData = !grid.WaitForDataLoadAsync().IsCompleted;
+
+        if (grid.Data == null) // Checks whether the Grid contains data
+            return "Please add new vendor.";
+        if (waitingForData) // Checks whether data is loading
+            return "Loading data...";
+        if ((grid.Data as IEnumerable<object>).Count() == 0)
+            return "Please add new vendor.";
+        if (hasFilter) // Checks whether all items are hidden by the filter
+            return "No items match your search.";
+        return "No data to display";
+    }
+
+
+}

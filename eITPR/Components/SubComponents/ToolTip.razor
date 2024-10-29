@@ -1,0 +1,33 @@
+﻿@rendermode InteractiveServer
+
+
+<div class="info-caption">
+    <label for="@TargetId">@Caption</label>
+
+    <DxButton CssClass="info-icon-btn"
+              IconCssClass="info-icon text-info"
+              RenderStyle="@ButtonRenderStyle.None"
+              Click="() => IsBtnNextOpen = !IsBtnNextOpen"
+              tabindex="-1"
+              aria-hidden="true"
+              />
+    <DxFlyout @bind-IsOpen=@IsBtnNextOpen
+              PositionTarget="@TargetId"
+              PreventCloseOnPositionTargetClick="true"
+              Width="240">
+        @ToolTipMsg
+    </DxFlyout>
+</div>
+
+@code {
+
+    [Parameter]
+    public string ToolTipMsg { get; set; } = "";
+    [Parameter]
+    public string TargetId { get; set; } = "";
+    [Parameter]
+    public string Caption { get; set; } = "";
+
+    public bool IsBtnNextOpen { get; set; } = false;
+
+}

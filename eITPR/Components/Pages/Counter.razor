@@ -1,32 +1,137 @@
 ﻿@page "/counter"
 @rendermode InteractiveServer
 @using eITPR.Components.SubComponents
+@inject IJSRuntime JSRuntime
+@inject NavigationManager NavManager
+@implements IDisposable
 
-<PageTitle>Counter</PageTitle>
+<PageTitle>Create e-ITPR</PageTitle>
 
-<h1>Counter</h1>
-
-<div class="counter-block">
-    <div class="counter-content">
-        <div class="counter-count">
-            @currentCount
-        </div>
-        <div class="counter-text">
-            current count
-        </div>
-        <div class="counter-block-back"></div>
-       
+<div id="container-submit" class="mt-5 container">
+    <div class="step-container d-flex justify-content-between">
+        <div class="step-name">Draft</div>
+        <div class="step-name">ITPR Info</div>
+        <div class="step-name">Upload documents</div>
+        <div class="step-name">ITPR Submitted</div>
+        <div class="step-name">ITPR Reviewed</div>
+        <div class="step-name">ITPR Validated</div>
     </div>
-    <DxButton Click="IncrementCount">Click me</DxButton>
+    <div class="progress px-1" style="height: 3px;">
+        <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+    <div class="step-container d-flex justify-content-between">
+        <div class="step-circle" @onclick="() => displayStep(1)">1</div>
+        <div class="step-circle" @onclick="() => displayStep(2)">2</div>
+        <div class="step-circle" @onclick="() => displayStep(3)">3</div>
+        <div class="step-circle" @onclick="() => displayStep(4)">4</div>
+        <div class="step-circle">5</div>
+        <div class="step-circle">6</div>
+    </div>
+
+    <DxLoadingPanel @bind-Visible="panelVisible"
+                    IsContentBlocked="true"
+                    CssClass="w-100"
+                    ApplyBackgroundShading="true">
+
+        <form id="multi-step-form">
+            @*  Step1 component *@
+            <Step1></Step1>
+
+            <!-- Only render steps base on statusId -->
+            @if (_statusId > 1 && _statusId <= 2) {
+                <!-- Step2.razor component -->
+                <Step2></Step2>
+                <Step3></Step3>
+            }
+
+            @if (_statusId > 1 && _statusId <= 3) {
+                <!-- Step3.razor component -->
+                @* <Step3></Step3> *@
+            }
+
+            @if (_statusId > 1 && _statusId <= 4) {
+                <!-- Step4.razor component -->
+                <div class="step step-4">
+                    <!-- Step 3 form fields here -->
+                    <h3>Step 4</h3>
+                    <div class="mb-3">
+                        <label for="field3" class="form-label">Field 3:</label>
+                        <input type="text" class="form-control" id="field3" name="field3">
+                    </div>
+                    <button type="button" class="btn btn-primary prev-step">Previous</button>
+                    <button type="submit" class="btn btn-success">Submit</button>
+                </div>
+            }
 
 
+
+        </form>
+    </DxLoadingPanel>
 </div>
 
 @code {
-    private int currentCount = 0;
+    bool panelVisible { get; set; } = false;
+    private IJSObjectReference? module;
+    int _statusId = 1;
 
-    private void IncrementCount()
-    {
-        currentCount++;
+    protected override async Task OnInitializedAsync() {
+
+
+        //detect if coming from another page
+        if(NavManager.BaseUri != NavManager.Uri) {
+            GetQueryStringValues();
+        }
+        //detect changes within same page
+        NavManager.LocationChanged += HandleLocationChanged;
+        await showloading();
     }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender) {
+        if (firstRender) {
+            module = await JSRuntime.InvokeAsync<IJSObjectReference>("import", "../scripts/stepper.js");
+            await displayStep(_statusId);
+        }
+    }
+
+    protected async Task displayStep(int stepId) {
+
+        if(module != null) {
+            //show loading
+            panelVisible = true;
+            await Tools.displayStep(stepId, module);
+            //hide loading
+            panelVisible = false;
+        }
+
+    }
+
+    async void HandleLocationChanged(object sender, LocationChangedEventArgs e) {
+
+        GetQueryStringValues();
+        StateHasChanged();
+        await displayStep(_statusId);
+
+    }
+
+    async void GetQueryStringValues() {
+
+        Tools.TryGetQueryString<int>(NavManager, "statusId", out _statusId);
+        await Task.Delay(100);
+ 
+    }
+
+    public async void Dispose() {
+
+        NavManager.LocationChanged -= HandleLocationChanged;
+        await Task.Delay(100);
+    }
+
+    async Task showloading() {
+
+        panelVisible = true;
+        await Task.Delay(300);
+        panelVisible = false;
+
+    }
+
 }

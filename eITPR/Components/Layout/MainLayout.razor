@@ -1,7 +1,12 @@
 ﻿@inherits LayoutComponentBase
 @inject NavigationManager NavigationManager
 
-<div class="page">
+@* 
+NOTES : using e-ITPR styles.css 
+Last modified by : JC GABUYA
+*@
+
+<div class="page page-zoom">
     <DxGridLayout CssClass="page-layout">
         <Rows>
             <DxGridLayoutRow Areas="sidebar header" Height="auto"></DxGridLayoutRow>
@@ -20,15 +25,22 @@
             <DxGridLayoutItem Area="content" CssClass="content px-4">
                 <Template>
                     <div class="w-100 nav-buttons-container">
+                        @* Collapse Button Toggle Off *@
                         <NavLink id="menu-top" class="button-link hidden" onclick="(document.getElementById('sidebar').classList.toggle('auto-expanded'), document.getElementById('menu-top').classList.toggle('hidden'))">
                             <DxButton RenderStyle="@ButtonRenderStyle.Dark" RenderStyleMode="@ButtonRenderStyleMode.Text" CssClass="menu-button" IconCssClass="icon icon-menu"></DxButton>
                         </NavLink>
+                        @* Collapse Button Toggle On *@
                         @if(!string.IsNullOrEmpty(NavigationManager.ToBaseRelativePath(NavigationManager.Uri))) {
                             <NavLink href="/" class="button-link">
                                 <DxButton RenderStyle="@ButtonRenderStyle.Dark" Text="Back to Home" RenderStyleMode="@ButtonRenderStyleMode.Text" CssClass="menu-button" IconCssClass="icon icon-back"></DxButton>
                             </NavLink>
                         }
+                        @if (string.IsNullOrEmpty(NavigationManager.ToBaseRelativePath(NavigationManager.Uri))) {
+                            @* Sub Nav Menu *@
+                        @*     <NavMenu2></NavMenu2> *@
+                        }
                     </div>
+
                     @Body
                 </Template>
             </DxGridLayoutItem>

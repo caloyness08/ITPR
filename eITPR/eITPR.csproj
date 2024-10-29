@@ -10,18 +10,112 @@
     <EmbeddedResource Remove="wwwroot\css\open.iconic\**" />
     <None Remove="wwwroot\css\open.iconic\**" />
   </ItemGroup>
-  <ItemGroup>
-    <Content Include="Components\SubComponents\SearchItem.razor.css" />
-    <Content Include="tailwind.config.js" />
-  </ItemGroup>
     <ItemGroup>
     <None Remove="Components\SubComponents\SearchItem - Copy.razor.css" />
-    <None Remove="Components\SubComponents\SearchItem.razor.css" />
   </ItemGroup>
+    <ItemGroup>
+      <None Include="wwwroot\images\icons\about.svg" />
+      <None Include="wwwroot\images\icons\accept.svg" />
+      <None Include="wwwroot\images\icons\add.svg" />
+      <None Include="wwwroot\images\icons\address.svg" />
+      <None Include="wwwroot\images\icons\alert.svg" />
+      <None Include="wwwroot\images\icons\align-center.svg" />
+      <None Include="wwwroot\images\icons\align-left.svg" />
+      <None Include="wwwroot\images\icons\align-right.svg" />
+      <None Include="wwwroot\images\icons\birthdate.svg" />
+      <None Include="wwwroot\images\icons\bold.svg" />
+      <None Include="wwwroot\images\icons\bonus.svg" />
+      <None Include="wwwroot\images\icons\bug.svg" />
+      <None Include="wwwroot\images\icons\calendar.svg" />
+      <None Include="wwwroot\images\icons\caret-left.svg" />
+      <None Include="wwwroot\images\icons\caret-right.svg" />
+      <None Include="wwwroot\images\icons\check.svg" />
+      <None Include="wwwroot\images\icons\chevron-down.svg" />
+      <None Include="wwwroot\images\icons\chevron-left-small.svg" />
+      <None Include="wwwroot\images\icons\chevron-left.svg" />
+      <None Include="wwwroot\images\icons\chevron-right-small.svg" />
+      <None Include="wwwroot\images\icons\chevron-right.svg" />
+      <None Include="wwwroot\images\icons\city.svg" />
+      <None Include="wwwroot\images\icons\clear.svg" />
+      <None Include="wwwroot\images\icons\close.svg" />
+      <None Include="wwwroot\images\icons\collapse.svg" />
+      <None Include="wwwroot\images\icons\column-chooser.svg" />
+      <None Include="wwwroot\images\icons\contacts.svg" />
+      <None Include="wwwroot\images\icons\copy.svg" />
+      <None Include="wwwroot\images\icons\credit-card.svg" />
+      <None Include="wwwroot\images\icons\cut.svg" />
+      <None Include="wwwroot\images\icons\debit-card.svg" />
+      <None Include="wwwroot\images\icons\delete.svg" />
+      <None Include="wwwroot\images\icons\document-color.svg" />
+      <None Include="wwwroot\images\icons\dollar.svg" />
+      <None Include="wwwroot\images\icons\drop-file.svg" />
+      <None Include="wwwroot\images\icons\euro.svg" />
+      <None Include="wwwroot\images\icons\export-jpg.svg" />
+      <None Include="wwwroot\images\icons\export-pdf.svg" />
+      <None Include="wwwroot\images\icons\export-png.svg" />
+      <None Include="wwwroot\images\icons\export.svg" />
+      <None Include="wwwroot\images\icons\folder-color.svg" />
+      <None Include="wwwroot\images\icons\folder.svg" />
+      <None Include="wwwroot\images\icons\font.svg" />
+      <None Include="wwwroot\images\icons\grid-toolbar-delete.svg" />
+      <None Include="wwwroot\images\icons\grid-toolbar-document.svg" />
+      <None Include="wwwroot\images\icons\grid-toolbar-edit.svg" />
+      <None Include="wwwroot\images\icons\grid-toolbar-filter.svg" />
+      <None Include="wwwroot\images\icons\grid-toolbar-new.svg" />
+      <None Include="wwwroot\images\icons\grid-toolbar-refresh.svg" />
+      <None Include="wwwroot\images\icons\hamburger.svg" />
+      <None Include="wwwroot\images\icons\home.svg" />
+      <None Include="wwwroot\images\icons\image-colors.svg" />
+      <None Include="wwwroot\images\icons\info-circle.svg" />
+      <None Include="wwwroot\images\icons\info.svg" />
+      <None Include="wwwroot\images\icons\italic.svg" />
+      <None Include="wwwroot\images\icons\like.svg" />
+      <None Include="wwwroot\images\icons\link.svg" />
+      <None Include="wwwroot\images\icons\logo-color.svg" />
+      <None Include="wwwroot\images\icons\logo-monochrome.svg" />
+      <None Include="wwwroot\images\icons\mail.svg" />
+      <None Include="wwwroot\images\icons\minus.svg" />
+      <None Include="wwwroot\images\icons\music-colors.svg" />
+      <None Include="wwwroot\images\icons\music.svg" />
+      <None Include="wwwroot\images\icons\paragraph.svg" />
+      <None Include="wwwroot\images\icons\paste.svg" />
+      <None Include="wwwroot\images\icons\phone.svg" />
+      <None Include="wwwroot\images\icons\plus.svg" />
+      <None Include="wwwroot\images\icons\popup-birthday.svg" />
+      <None Include="wwwroot\images\icons\popup-position.svg" />
+      <None Include="wwwroot\images\icons\popup-user.svg" />
+      <None Include="wwwroot\images\icons\popup-worked.svg" />
+      <None Include="wwwroot\images\icons\products.svg" />
+      <None Include="wwwroot\images\icons\quest.svg" />
+      <None Include="wwwroot\images\icons\redo.svg" />
+      <None Include="wwwroot\images\icons\refresh.svg" />
+      <None Include="wwwroot\images\icons\save.svg" />
+      <None Include="wwwroot\images\icons\scheduler-add.svg" />
+      <None Include="wwwroot\images\icons\scheduler-delete.svg" />
+      <None Include="wwwroot\images\icons\scheduler-drag-and-resize.svg" />
+      <None Include="wwwroot\images\icons\scheduler-drag-between-resources.svg" />
+      <None Include="wwwroot\images\icons\scheduler-edit.svg" />
+      <None Include="wwwroot\images\icons\scheduler-navigator.svg" />
+      <None Include="wwwroot\images\icons\scheduler-no-tooltip.svg" />
+      <None Include="wwwroot\images\icons\search.svg" />
+      <None Include="wwwroot\images\icons\settings.svg" />
+      <None Include="wwwroot\images\icons\sort.svg" />
+      <None Include="wwwroot\images\icons\support.svg" />
+      <None Include="wwwroot\images\icons\theme-icon.svg" />
+      <None Include="wwwroot\images\icons\time.svg" />
+      <None Include="wwwroot\images\icons\total.svg" />
+      <None Include="wwwroot\images\icons\underline.svg" />
+      <None Include="wwwroot\images\icons\undo.svg" />
+      <None Include="wwwroot\images\icons\user-profile.svg" />
+      <None Include="wwwroot\images\icons\video-colors.svg" />
+      <None Include="wwwroot\images\icons\video.svg" />
+      <None Include="wwwroot\images\icons\watermark.svg" />
+    </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.1.35" />
+    <PackageReference Include="Dapper.Contrib" Version="2.0.78" />
     <PackageReference Include="DevExpress.Blazor" Version="24.1.3" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="wwwroot\js\" />
+    <PackageReference Include="Microsoft.JSInterop" Version="8.0.8" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
   </ItemGroup>
 </Project>

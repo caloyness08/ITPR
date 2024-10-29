@@ -1,23 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\eITPR.csproj": {}
+    "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\eITPR.csproj": {}
   },
   "projects": {
-    "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\eITPR.csproj": {
+    "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\eITPR.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\eITPR.csproj",
+        "projectUniqueName": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\eITPR.csproj",
         "projectName": "eITPR",
-        "projectPath": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\eITPR.csproj",
-        "packagesPath": "C:\\Users\\JC - DEV\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JC - DEV\\source\\repos_work\\eITPR\\eITPR\\obj\\",
+        "projectPath": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\eITPR.csproj",
+        "packagesPath": "C:\\Users\\00144601\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\00144601\\JC\\SOURCE CODE\\eITPR\\eITPR\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
           "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages"
         ],
         "configFilePaths": [
-          "C:\\Users\\JC - DEV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Users\\00144601\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -25,9 +28,8 @@
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\packages": {},
+          "D:\\Users\\00144601\\JC\\SOURCE CODE\\NuGetPackages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -51,9 +53,25 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
+            "Dapper.Contrib": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
             "DevExpress.Blazor": {
               "target": "Package",
               "version": "[24.1.3, )"
+            },
+            "Microsoft.JSInterop": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
             }
           },
           "imports": [
@@ -75,7 +93,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
